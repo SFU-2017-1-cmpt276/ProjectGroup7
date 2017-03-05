@@ -142,6 +142,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         leftAccessory.text = restaurantAnnotation.eta
         leftAccessory.font = UIFont(name: "Verdana", size: 10)
         annotationView?.leftCalloutAccessoryView = leftAccessory
+        return annotationView
         
         
     }
