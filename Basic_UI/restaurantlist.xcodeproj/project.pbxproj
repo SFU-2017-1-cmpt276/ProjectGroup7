@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */; };
+		261AA5D71E6BA86500C827C5 /* ItemListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D61E6BA86500C827C5 /* ItemListClass.swift */; };
 		26BF0FF21E6A03FA0056713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF11E6A03FA0056713E /* AppDelegate.swift */; };
 		26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF31E6A03FA0056713E /* ViewController.swift */; };
 		26BF0FF71E6A03FA0056713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BF0FF51E6A03FA0056713E /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		261AA5D61E6BA86500C827C5 /* ItemListClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListClass.swift; sourceTree = "<group>"; };
 		26BF0FEE1E6A03FA0056713E /* restaurantlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF0FF11E6A03FA0056713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26BF0FF31E6A03FA0056713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				26BF0FF11E6A03FA0056713E /* AppDelegate.swift */,
 				26BF0FF31E6A03FA0056713E /* ViewController.swift */,
+				261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */,
 				26BF10031E6A08CE0056713E /* RestaurantClass.swift */,
+				261AA5D61E6BA86500C827C5 /* ItemListClass.swift */,
 				26BF0FF51E6A03FA0056713E /* Main.storyboard */,
 				26BF0FF81E6A03FA0056713E /* Assets.xcassets */,
 				26BF0FFA1E6A03FA0056713E /* LaunchScreen.storyboard */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */,
+				261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */,
 				26BF10041E6A08CE0056713E /* RestaurantClass.swift in Sources */,
 				26BF0FF21E6A03FA0056713E /* AppDelegate.swift in Sources */,
+				261AA5D71E6BA86500C827C5 /* ItemListClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

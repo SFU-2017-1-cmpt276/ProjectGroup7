@@ -12,16 +12,21 @@ class RestaurantClass: NSObject {
     
 
     var Name: String
-    var Items: [String]
-    var distance: Int
+    var Items: [ItemListClass]
+    var distance: Double
+    var lat: Double
+    var long: Double
 
     
 
     
-    init(name: String?, items: [String], distance: Int) {
+    init(name: String?, items: [String], distance: Double, long: Double, lat: Double) {
+    
         self.Name = name ?? ""
         self.Items = []
         self.distance = distance
+        self.lat = lat
+        self.long = long
         
     }
     
