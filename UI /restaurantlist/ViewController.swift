@@ -15,11 +15,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     let locationManager = CLLocationManager()
     
-    var selectedRow: Int = 0
+    var selectedRow: Int = -1
     
    
-    
-    
     //load data of items into the array
     
     var coords:CLLocation? = nil
@@ -32,6 +30,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     
     var Item1 = ItemListClass(Name: "Muffin", Calories: 350, Fats: 10, Carbs: 10, Protein: 10, Sodium: 300, Vegetarian: true, Vegan: false, Egg: false, Milk: false, Peanut: false, TreeNut: false, Fish: false, ShellFish: false, Wheat: false, Soy: false)
+    
+     var Item3 = ItemListClass(Name: "Croissant", Calories: 200, Fats: 10, Carbs: 10, Protein: 10, Sodium: 10, Vegetarian: false, Vegan: false, Egg: false, Milk: false, Peanut: false, TreeNut: false, Fish: false, ShellFish: false, Wheat: false, Soy: false)
 
     
     var Item2 = ItemListClass(Name: "Pizza", Calories: 200, Fats: 10, Carbs: 10, Protein: 10, Sodium: 10, Vegetarian: false, Vegan: false, Egg: false, Milk: false, Peanut: false, TreeNut: false, Fish: false, ShellFish: false, Wheat: false, Soy: false)
@@ -41,10 +41,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     var ArrayItems1: [ItemListClass] = []
     
     var ArrayItems2: [ItemListClass] = []
-    
-    
-    
-  
     
     
 
@@ -61,6 +57,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         
         ArrayItems1.insert(Item1, at:0)
+        ArrayItems1.insert(Item3, at:1)
         ArrayItems2.insert(Item2, at:0)
     
         Restaurant1.Items = ArrayItems1
@@ -110,13 +107,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
 
 
-    
-    
     //function that implements function on every element in array
     
     func calculate_distance(restaurant: RestaurantClass){
         
-    //var distance_lat = (coords?.coordinate.latitude)! - restaurant.lat
+   // var distance_lat = (coords?.coordinate.latitude)! - restaurant.lat
    // var distance_long = (coords?.coordinate.longitude)! - restaurant.long
         
         
@@ -125,8 +120,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
         }
     
-
-
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return RestaurantArray.count
     }
@@ -144,14 +137,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
 
 
-    
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let ItemView: ItemViewController = segue.destination as! ItemViewController
         selectedRow = table.indexPathForSelectedRow!.row
-        ItemView.setText(t: RestaurantArray[selectedRow].Items[0].Name)
-    
-    
+        ItemView.data =  RestaurantArray[selectedRow].Items
     }
     
 
