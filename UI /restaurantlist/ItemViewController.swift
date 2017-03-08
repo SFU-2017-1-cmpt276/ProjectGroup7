@@ -11,41 +11,34 @@ import UIKit
 class ItemViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableItem: UITableView!
-
-    var data: [ItemListClass] = []
     
+    //initialize an array of items to be filled with an array from viewcontroller
+    var data: [ItemListClass] = []
     var selectedRow:Int = -1
   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       let cell2 = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! ButtonCell
-       //cell2.textLabel?.text = data[indexPath.row].Name
         
+       let cell2 = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! ButtonCell
        cell2.rowLabel.text = data[indexPath.row].Name
-       cell2.tapAction = { (cell) in
-            self.showAlertForRow(tableView.indexPath(for: cell)!.row)
+       cell2.tapAction = {
+        (cell) in self.showAlertForRow(tableView.indexPath(for: cell)!.row)
         }
         return cell2
     }
     
+    //This function is responsible for the item detail pop up
     func showAlertForRow(_ row: Int) {
         let alert = UIAlertController(
             title: data[row].Name,
@@ -60,18 +53,4 @@ class ItemViewController: UIViewController, UITableViewDataSource {
             animated: true,
             completion: nil)
     }
-    
-    
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

@@ -28,7 +28,7 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>NSLocationAlwaysUsageDescription</key>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Allow permission to use location</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

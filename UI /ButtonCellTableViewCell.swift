@@ -9,13 +9,10 @@
 import UIKit
 
 class ButtonCell: UITableViewCell {
+    
     @IBOutlet weak var rowLabel: UILabel!
     
-    
-    
     var tapAction: ((UITableViewCell) -> Void)?
-    
-    
     
     @IBAction func buttonTap(_ sender: AnyObject) {
         tapAction?(self)

@@ -28,7 +28,6 @@ class ItemListClass: NSObject {
     var Soy: Bool = false
     
     
-    
     init(Name: String, Calories: Double, Fats: Double, Carbs: Double, Protein: Double, Sodium: Double, Vegetarian: Bool, Vegan: Bool, Egg: Bool, Milk:Bool, Peanut: Bool, TreeNut: Bool, Fish: Bool, ShellFish: Bool, Wheat: Bool, Soy:Bool){
         
         self.Name = Name

@@ -7,28 +7,22 @@
 //
 
 import UIKit
+import CoreLocation
 
 class RestaurantClass: NSObject {
     
-
     var Name: String
     var Items: [ItemListClass]
     var distance: Double
     var lat: Double
     var long: Double
 
-    
-
-    
-    init(name: String?, items: [String], distance: Double, long: Double, lat: Double) {
+init(name: String?, items: [String], distance: Double, long: Double, lat: Double) {
     
         self.Name = name ?? ""
         self.Items = []
         self.distance = distance
         self.lat = lat
         self.long = long
-        
     }
-    
-    
 }

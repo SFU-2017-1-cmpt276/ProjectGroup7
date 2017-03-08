@@ -13,7 +13,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     var names:[String]!
     var descriptions:[String]!
-    var coordinates:[Any]!
+    //var coordinates:[Any]!
     var currentRestaurantIndex: Int = 0
     var locationManager: CLLocationManager!
     @IBOutlet weak var mapView: MKMapView!
