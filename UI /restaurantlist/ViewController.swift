@@ -4,7 +4,19 @@
 //
 //  Created by Grazietta Hof on 2017-03-03.
 //  Copyright © 2017 Grazietta Hof. All rights reserved.
-//
+//last updated by Grazietta Hof on 2017-08-03
+//programmers: Grazietta Hof, Nicole Thomas, Jordan Yuen, Fran Rammuno
+
+//coding standard: 
+//The names of variables and items should be self-descriptive
+//if any changes are made to existing code in this file notify all programmers in the group chat
+//Xcode bracket convention should be followed
+//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+
+//Known bugs:
+//The GPS feature does not reload every few seconds, this still needs to be implemented
+//an error may occur of the user is moving very fast and the app is loading with the distance function as the user location may be changing rapidly: this needs to be tested
 
 import UIKit
 import CoreLocation

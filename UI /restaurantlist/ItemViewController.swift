@@ -4,7 +4,15 @@
 //
 //  Created by Grazietta Hof on 2017-03-04.
 //  Copyright © 2017 Grazietta Hof. All rights reserved.
-//
+//last updated by Grazietta Hof on 2017-08-03
+//programmers: Grazietta Hof
+
+//coding standard:
+//The names of variables and items should be self-descriptive
+//if any changes are made to existing code in this file notify all programmers in the group chat
+//Xcode bracket convention should be followed
+//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
 
 import UIKit
 
@@ -13,6 +21,7 @@ class ItemViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableItem: UITableView!
     
     //initialize an array of items to be filled with an array from viewcontroller
+    //The items represent the items from the restaurant that the user has selected
     var data: [ItemListClass] = []
     var selectedRow:Int = -1
   
@@ -28,6 +37,8 @@ class ItemViewController: UIViewController, UITableViewDataSource {
         return data.count
     }
     
+    
+    //This function uses the ButtonCell class to create a button from the prototype cell in the tableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
        let cell2 = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! ButtonCell
