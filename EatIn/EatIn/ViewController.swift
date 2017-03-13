@@ -12,8 +12,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let customCellIdentifier = "cellId"
-    let customSectionHeaderIdentifier = "taskHeaderId"
+    let CellIdentifier = "cellId"
+    let SectionHeaderIdentifier = "taskHeaderId"
     
     var ingredients : [String] = []
     
@@ -21,13 +21,13 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Setting some variables
+        // Setting variables
         collectionView!.dataSource = self
         collectionView!.delegate = self
         collectionView!.backgroundColor = .white
         collectionView!.alwaysBounceVertical = true
-        collectionView!.register(TaskCell.self, forCellWithReuseIdentifier: customCellIdentifier)
-        collectionView!.register(TaskHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: customSectionHeaderIdentifier)
+        collectionView!.register(IngredientCell.self, forCellWithReuseIdentifier: CellIdentifier)
+        collectionView!.register(Header.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: SectionHeaderIdentifier)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -35,16 +35,16 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let customCell = collectionView.dequeueReusableCell(withReuseIdentifier: customCellIdentifier, for: indexPath) as! TaskCell
-        customCell.ingredientLabel.text = ingredients[indexPath.row]
-        customCell.deleteImage.image = UIImage(named: "close.png")
-        return customCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifier, for: indexPath) as! IngredientCell
+        cell.ingredientLabel.text = ingredients[indexPath.row]
+        cell.deleteImage.image = UIImage(named: "close.png")
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let cell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: customSectionHeaderIdentifier, for: indexPath) as! TaskHeader
-        cell.parentViewController = self
-        return cell
+        let Headercell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: SectionHeaderIdentifier, for: indexPath) as! Header
+        Headercell.parentViewController = self
+        return Headercell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
@@ -56,7 +56,7 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
         collectionView.reloadData()
     }
     
-    func addNewTask(taskName : String) {
+    func addToList(taskName : String) {
         ingredients.append(taskName)
         collectionView?.reloadData()
     }
@@ -64,11 +64,11 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     
 }
 
-class TaskHeader : BaseCell {
+class Header : BaseCell {
     
     var parentViewController : ViewController?
     
-    let DescriptionField : UITextField = {
+    let IngredientField : UITextField = {
         let field = UITextField()
         field.placeholder = "Ingredient"
         field.borderStyle = .roundedRect
@@ -84,27 +84,27 @@ class TaskHeader : BaseCell {
     }()
     
     override func setupViews() {
-        addSubview(DescriptionField)
+        addSubview(IngredientField)
         addSubview(addIngredient)
         
         addIngredient.addTarget(self, action: #selector(Ingredient), for: .touchUpInside)
         
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[v0]-8-[v1(80)]-8-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": DescriptionField, "v1": addIngredient]))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-15-[v0]-15-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": DescriptionField]))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-10-[v0]-10-[v1(80)]-10-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": IngredientField, "v1": addIngredient]))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-15-[v0]-15-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": IngredientField]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": addIngredient]))
     }
     
     
     func Ingredient(sender: Any?) {
         if let viewController = parentViewController {
-            viewController.addNewTask(taskName: DescriptionField.text!)
-            DescriptionField.text = ""
+            viewController.addToList(taskName: IngredientField.text!)
+            IngredientField.text = ""
         }
     }
 }
 
 
-class TaskCell : BaseCell {
+class IngredientCell : BaseCell {
     var parentViewController : ViewController?
     
     let ingredientLabel : UILabel = {
@@ -124,7 +124,7 @@ class TaskCell : BaseCell {
         addSubview(ingredientLabel)
         addSubview(deleteImage)
         
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[v0][v1(10)]-8-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel, "v1": deleteImage]))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[v0][v1(10)]-50-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel, "v1": deleteImage]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[v0]-8-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-10-[v0]-10-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": deleteImage]))
     }
