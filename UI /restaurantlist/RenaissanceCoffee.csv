@@ -1,0 +1,72 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+Mexican Chicken Wrap,400,14,21,48,600,No,No,No,Yes,No,No,No,No,Yes,No
+Veggie Wrap,375,12,11,53,890,No,Yes,No,No,No,No,No,No,Yes,No
+Turkey Bacon Avocado Wrap,360,19,22,34,950,No,No,No,Yes,No,No,No,No,Yes,No
+Chicken Caesar Wrap,480,23,36,39,1470,No,No,No,Yes,No,No,No,No,Yes,No
+Egg Salad Wrap,420,18,16,48,1200,No,Yes,Yes,No,No,No,No,No,Yes,No
+Turkey and Cheese Sandwich,260,3,17,33,720,No,No,No,Yes,No,No,No,No,Yes,No
+Ham and Cheese Sandwich,270,4,16,37,800,No,No,No,Yes,No,No,No,No,Yes,No
+Roast Beef Sandwich,190,8,11,20,540,No,No,No,Yes,No,No,No,No,Yes,No
+Tuna and Cheese Sandwich,400,11,24,50,940,No,No,No,Yes,No,No,Yes,No,Yes,No
+Ham Panini,420,23,20,33,1340,No,No,No,Yes,No,No,No,No,Yes,No
+Turkey Panini,380,18,33,53,1120,No,No,No,Yes,No,No,No,No,Yes,No
+Chicken Panini,382,13,37,37,1076,No,No,No,Yes,No,No,No,No,Yes,No
+Veggie Panini,350,12,13,48,770,No,Yes,No,Yes,No,No,No,No,Yes,No
+Greek Salad,150,10,7,11,550,No,Yes,No,Yes,No,No,No,No,No,No
+Caesar Salad,250,25,3,7,520,No,Yes,No,Yes,No,No,No,No,No,No
+Potato Salad,219,14,3,23,319,No,Yes,No,Yes,No,No,No,No,No,No
+Pasta Salad,242,8,7,37,478,No,Yes,No,No,No,No,No,No,Yes,No
+Quinoa Salad,230,6,8,38,320,Yes,Yes,No,No,No,No,No,No,No,No
+Couscous Salad,240,4,8,44,410,Yes,Yes,No,No,No,No,No,No,No,No
+Fiesta Salad,360,10,13,53,390,No,Yes,No,No,No,No,No,No,No,No
+Tuna Salad,240,10.5,27,3,860,No,No,No,No,No,No,Yes,No,Yes,No
+Veggies and Dip,100,5,2,12,340,Yes,Yes,No,No,No,No,No,No,No,No
+Fruit Salad,110,0,1,27,20,Yes,Yes,No,No,No,No,No,No,No,No
+Yogurt Parfait,230,3,6,47,115,No,Yes,No,Yes,No,No,No,No,No,No
+Cinnamon Bun,250,9,4,38,290,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Plain Bagel,230,2,9,45,450,No,Yes,No,No,No,No,No,No,Yes,No
+Sesame Bagel,280,2,10,57,450,No,Yes,No,No,No,No,No,No,Yes,No
+Cheese Bagel,330,6,13,55,580,No,Yes,No,Yes,No,No,No,No,Yes,No
+Everything Bagel,280,4,11,51,410,No,Yes,No,Yes,No,No,No,No,Yes,No
+Bluberry Muffin,420,22,6,52,490,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Orange Cranberry Muffin,480,19,7,71,360,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Lemon Poppyseed Muffin,450,22,5,58,370,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Lowfat Blueberry Apricot Muffin,350,4,4,70,210,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Apple Walnut Morning Glory Muffin,440,23,6,53,280,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes
+Bluberry Bran Muffin,340,11,5,57,430,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Chocolate Chip Muffin,310,10,4,51,340,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Double Chocolate Muffin,480,26,7,56,360,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Whole Wheat Raspberry Scone,330,15,8,46,450,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Blueberry Scone,460,22,7,61,420,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Apple Raisin Cinnamon Scone,370,18,4,48,280,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Blueberry Apricot Loaf,350,4,7,70,210,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Banana Loaf,430,17,6,63,210,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Marble Loaf,400,21,7,46,190,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Lemon Poppyseed Loaf,430,20,6,57,390,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Banana Chocolate Loaf,430,20,5,63,500,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Old Fashioned Chocolate Chip Cookie,190,9,3,25,45,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Oatmeal Chocolate Chip Cookie,220,12,3,25,70,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Peanut Butter and Chocolate Chip Cookie,230,14,5,21,50,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Double Chocolate Cookie,208,10,2,23,135,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Oatmeal Raisin Cookie,200,10,3,25,40,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Triple Chocolate Chunk Cake,260,15,3,28,115,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Carrot Cake,360,16,4,46,310,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Butter Chicken with rice,842,38,59,66,700,No,No,No,Yes,No,No,No,No,Yes,Yes
+Chana Masala with Rice,620,24,22,101,1170,No,Yes,No,Yes,No,No,No,No,No,Yes
+Samosas with Rice,620,20,8,101,920,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Butter Chicken with 2 Naans,1120,50,68,91,1520,No,No,No,Yes,No,No,No,No,Yes,Yes
+Chana Masala with 2 naans,940,36,34,132,2130,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Samosas with 2 naan,940,32,20,132,1460,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Bacon and Egg Bagel,620,26,32,68,1560,No,No,Yes,Yes,No,No,No,No,Yes,No
+Ham and Egg Bagel,597,27,30,57,1452,No,No,Yes,Yes,No,No,No,No,Yes,No
+Egg on Bagel,310,12,16,34,600,No,Yes,Yes,Yes,No,No,No,No,Yes,No
+side Cream Cheese,50,5,1,1,53,No,Yes,No,Yes,No,No,No,No,No,No
+side of Butter,105,12,0,0,90,No,Yes,No,Yes,No,No,No,No,No,No
+Biscotti,120,4,2,18,50,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Chocolate Croissant,320,18,5,36,250,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
+Rice Crispy Square,210,4,1,43,330,No,Yes,No,Yes,No,No,No,No,No,No
+Pepperoni Cheese Stick,270,13,15,13,90,No,No,No,Yes,No,No,No,No,Yes,Yes
+Blueberry Bar,380,19,5,50,200,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Nanaimo Bar,350,20,2,49,290,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Date Square,363,13,4,64,217,No,Yes,No,Yes,No,No,No,No,Yes,Yes
+Butter Croissant,300,17,6,32,220,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes
