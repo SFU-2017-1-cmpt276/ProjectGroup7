@@ -62,8 +62,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     }
     
     //append new ingredient to array
-    func addToList(taskName : String) {
-        ingredients.append(taskName)
+    func addToList(ingredientName : String) {
+        ingredients.append(ingredientName)
         collectionView?.reloadData() //reload data to include new ingredient
     }
     
