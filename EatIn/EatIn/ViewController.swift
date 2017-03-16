@@ -166,7 +166,7 @@ class Header : BaseCell {
                 
             //add ingredient to array if correctly spelt and doesnt contain a digit
             else if isReal(word: IngredientField.text!) && !isalpha(word: IngredientField.text!) {
-            viewController.addToList(taskName: IngredientField.text!)
+            viewController.addToList(ingredientName: IngredientField.text!)
             IngredientField.backgroundColor = UIColor.white
             IngredientField.text = ""
             }
