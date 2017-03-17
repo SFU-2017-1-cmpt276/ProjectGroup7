@@ -10,6 +10,29 @@
 		261041231E6D275D00696157 /* ButtonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */; };
 		261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */; };
 		261AA5D71E6BA86500C827C5 /* ItemListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D61E6BA86500C827C5 /* ItemListClass.swift */; };
+		2629C7A21E78BBFE00CE378B /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629C7A11E78BBFE00CE378B /* csv.swift */; };
+		2629C7CA1E78BCB700CE378B /* BambooGarden.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7C91E78BCB700CE378B /* BambooGarden.csv */; };
+		2629C7CC1E78BCBD00CE378B /* BigSmokeBurgers.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7CB1E78BCBD00CE378B /* BigSmokeBurgers.csv */; };
+		2629C7CE1E78BCC200CE378B /* BubbleWorld.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7CD1E78BCC200CE378B /* BubbleWorld.csv */; };
+		2629C7D01E78BCC600CE378B /* ClubIlia.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7CF1E78BCC600CE378B /* ClubIlia.csv */; };
+		2629C7D21E78BCCA00CE378B /* DonairTown.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7D11E78BCCA00CE378B /* DonairTown.csv */; };
+		2629C7D41E78BCCD00CE378B /* GawonKorean.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7D31E78BCCD00CE378B /* GawonKorean.csv */; };
+		2629C7D61E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7D51E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv */; };
+		2629C7D81E78BCD500CE378B /* HigherGroundsCoffeeShop.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7D71E78BCD500CE378B /* HigherGroundsCoffeeShop.csv */; };
+		2629C7DA1E78BCDA00CE378B /* HighlandsPub.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7D91E78BCDA00CE378B /* HighlandsPub.csv */; };
+		2629C7DC1E78BCDD00CE378B /* IchibankanExpress.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7DB1E78BCDD00CE378B /* IchibankanExpress.csv */; };
+		2629C7DE1E78BCE200CE378B /* PizzaHut.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7DD1E78BCE200CE378B /* PizzaHut.csv */; };
+		2629C7E01E78BCE500CE378B /* PlumGardenNoodleHouse.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7DF1E78BCE500CE378B /* PlumGardenNoodleHouse.csv */; };
+		2629C7E21E78BCE800CE378B /* PokeBar.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7E11E78BCE800CE378B /* PokeBar.csv */; };
+		2629C7E41E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7E31E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv */; };
+		2629C7E61E78BCEF00CE378B /* SpicyStone.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7E51E78BCEF00CE378B /* SpicyStone.csv */; };
+		2629C7E81E78BCF300CE378B /* Starbucks.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7E71E78BCF300CE378B /* Starbucks.csv */; };
+		2629C7EA1E78BCF600CE378B /* Subway.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7E91E78BCF600CE378B /* Subway.csv */; };
+		2629C7EC1E78BCFA00CE378B /* TimHortons.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7EB1E78BCFA00CE378B /* TimHortons.csv */; };
+		2629C7EE1E78BCFF00CE378B /* TripleO's.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7ED1E78BCFF00CE378B /* TripleO's.csv */; };
+		2629C7F01E78BDBD00CE378B /* JugoJuice.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7EF1E78BDBD00CE378B /* JugoJuice.csv */; };
+		2629C7F21E78BDD800CE378B /* RenaissanceCoffee.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7F11E78BDD800CE378B /* RenaissanceCoffee.csv */; };
+		2629C7F41E78BE2000CE378B /* NaturesGardenSFU.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7F31E78BE2000CE378B /* NaturesGardenSFU.csv */; };
 		26BF0FF21E6A03FA0056713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF11E6A03FA0056713E /* AppDelegate.swift */; };
 		26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF31E6A03FA0056713E /* ViewController.swift */; };
 		26BF0FF71E6A03FA0056713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BF0FF51E6A03FA0056713E /* Main.storyboard */; };
@@ -22,6 +45,29 @@
 		261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonCellTableViewCell.swift; path = ../ButtonCellTableViewCell.swift; sourceTree = "<group>"; };
 		261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		261AA5D61E6BA86500C827C5 /* ItemListClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListClass.swift; sourceTree = "<group>"; };
+		2629C7A11E78BBFE00CE378B /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = SOURCE_ROOT; };
+		2629C7C91E78BCB700CE378B /* BambooGarden.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BambooGarden.csv; path = CSV/BambooGarden.csv; sourceTree = SOURCE_ROOT; };
+		2629C7CB1E78BCBD00CE378B /* BigSmokeBurgers.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BigSmokeBurgers.csv; path = CSV/BigSmokeBurgers.csv; sourceTree = SOURCE_ROOT; };
+		2629C7CD1E78BCC200CE378B /* BubbleWorld.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BubbleWorld.csv; path = CSV/BubbleWorld.csv; sourceTree = SOURCE_ROOT; };
+		2629C7CF1E78BCC600CE378B /* ClubIlia.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ClubIlia.csv; path = CSV/ClubIlia.csv; sourceTree = SOURCE_ROOT; };
+		2629C7D11E78BCCA00CE378B /* DonairTown.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DonairTown.csv; path = CSV/DonairTown.csv; sourceTree = SOURCE_ROOT; };
+		2629C7D31E78BCCD00CE378B /* GawonKorean.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GawonKorean.csv; path = CSV/GawonKorean.csv; sourceTree = SOURCE_ROOT; };
+		2629C7D51E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GuadalupeHandmadeBurritos.csv; path = CSV/GuadalupeHandmadeBurritos.csv; sourceTree = SOURCE_ROOT; };
+		2629C7D71E78BCD500CE378B /* HigherGroundsCoffeeShop.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HigherGroundsCoffeeShop.csv; path = CSV/HigherGroundsCoffeeShop.csv; sourceTree = SOURCE_ROOT; };
+		2629C7D91E78BCDA00CE378B /* HighlandsPub.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HighlandsPub.csv; path = CSV/HighlandsPub.csv; sourceTree = SOURCE_ROOT; };
+		2629C7DB1E78BCDD00CE378B /* IchibankanExpress.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IchibankanExpress.csv; path = CSV/IchibankanExpress.csv; sourceTree = SOURCE_ROOT; };
+		2629C7DD1E78BCE200CE378B /* PizzaHut.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PizzaHut.csv; path = CSV/PizzaHut.csv; sourceTree = SOURCE_ROOT; };
+		2629C7DF1E78BCE500CE378B /* PlumGardenNoodleHouse.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PlumGardenNoodleHouse.csv; path = CSV/PlumGardenNoodleHouse.csv; sourceTree = SOURCE_ROOT; };
+		2629C7E11E78BCE800CE378B /* PokeBar.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PokeBar.csv; path = CSV/PokeBar.csv; sourceTree = SOURCE_ROOT; };
+		2629C7E31E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuesadaBurritosAndTacos.csv; path = CSV/QuesadaBurritosAndTacos.csv; sourceTree = SOURCE_ROOT; };
+		2629C7E51E78BCEF00CE378B /* SpicyStone.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SpicyStone.csv; path = CSV/SpicyStone.csv; sourceTree = SOURCE_ROOT; };
+		2629C7E71E78BCF300CE378B /* Starbucks.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Starbucks.csv; path = CSV/Starbucks.csv; sourceTree = SOURCE_ROOT; };
+		2629C7E91E78BCF600CE378B /* Subway.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Subway.csv; path = CSV/Subway.csv; sourceTree = SOURCE_ROOT; };
+		2629C7EB1E78BCFA00CE378B /* TimHortons.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TimHortons.csv; path = CSV/TimHortons.csv; sourceTree = SOURCE_ROOT; };
+		2629C7ED1E78BCFF00CE378B /* TripleO's.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "TripleO's.csv"; path = "CSV/TripleO's.csv"; sourceTree = SOURCE_ROOT; };
+		2629C7EF1E78BDBD00CE378B /* JugoJuice.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JugoJuice.csv; path = CSV/JugoJuice.csv; sourceTree = SOURCE_ROOT; };
+		2629C7F11E78BDD800CE378B /* RenaissanceCoffee.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RenaissanceCoffee.csv; path = CSV/RenaissanceCoffee.csv; sourceTree = SOURCE_ROOT; };
+		2629C7F31E78BE2000CE378B /* NaturesGardenSFU.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NaturesGardenSFU.csv; path = CSV/NaturesGardenSFU.csv; sourceTree = SOURCE_ROOT; };
 		26BF0FEE1E6A03FA0056713E /* restaurantlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF0FF11E6A03FA0056713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26BF0FF31E6A03FA0056713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +115,29 @@
 				261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */,
 				261AA5D61E6BA86500C827C5 /* ItemListClass.swift */,
 				26BF0FF51E6A03FA0056713E /* Main.storyboard */,
+				2629C7CB1E78BCBD00CE378B /* BigSmokeBurgers.csv */,
+				2629C7C91E78BCB700CE378B /* BambooGarden.csv */,
+				2629C7CD1E78BCC200CE378B /* BubbleWorld.csv */,
+				2629C7D11E78BCCA00CE378B /* DonairTown.csv */,
+				2629C7CF1E78BCC600CE378B /* ClubIlia.csv */,
+				2629C7D31E78BCCD00CE378B /* GawonKorean.csv */,
+				2629C7DD1E78BCE200CE378B /* PizzaHut.csv */,
+				2629C7E11E78BCE800CE378B /* PokeBar.csv */,
+				2629C7EF1E78BDBD00CE378B /* JugoJuice.csv */,
+				2629C7F31E78BE2000CE378B /* NaturesGardenSFU.csv */,
+				2629C7E91E78BCF600CE378B /* Subway.csv */,
+				2629C7ED1E78BCFF00CE378B /* TripleO's.csv */,
+				2629C7F11E78BDD800CE378B /* RenaissanceCoffee.csv */,
+				2629C7EB1E78BCFA00CE378B /* TimHortons.csv */,
+				2629C7DB1E78BCDD00CE378B /* IchibankanExpress.csv */,
+				2629C7E31E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv */,
+				2629C7E71E78BCF300CE378B /* Starbucks.csv */,
+				2629C7E51E78BCEF00CE378B /* SpicyStone.csv */,
+				2629C7DF1E78BCE500CE378B /* PlumGardenNoodleHouse.csv */,
+				2629C7D91E78BCDA00CE378B /* HighlandsPub.csv */,
+				2629C7D71E78BCD500CE378B /* HigherGroundsCoffeeShop.csv */,
+				2629C7D51E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv */,
+				2629C7A11E78BBFE00CE378B /* csv.swift */,
 				26BF0FF81E6A03FA0056713E /* Assets.xcassets */,
 				26BF0FFA1E6A03FA0056713E /* LaunchScreen.storyboard */,
 				26BF0FFD1E6A03FA0056713E /* Info.plist */,
@@ -135,9 +204,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2629C7E81E78BCF300CE378B /* Starbucks.csv in Resources */,
+				2629C7D01E78BCC600CE378B /* ClubIlia.csv in Resources */,
 				26BF0FFC1E6A03FA0056713E /* LaunchScreen.storyboard in Resources */,
+				2629C7F41E78BE2000CE378B /* NaturesGardenSFU.csv in Resources */,
+				2629C7E41E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv in Resources */,
+				2629C7CE1E78BCC200CE378B /* BubbleWorld.csv in Resources */,
+				2629C7E01E78BCE500CE378B /* PlumGardenNoodleHouse.csv in Resources */,
+				2629C7E61E78BCEF00CE378B /* SpicyStone.csv in Resources */,
 				26BF0FF91E6A03FA0056713E /* Assets.xcassets in Resources */,
+				2629C7D81E78BCD500CE378B /* HigherGroundsCoffeeShop.csv in Resources */,
+				2629C7CC1E78BCBD00CE378B /* BigSmokeBurgers.csv in Resources */,
+				2629C7EE1E78BCFF00CE378B /* TripleO's.csv in Resources */,
+				2629C7D61E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv in Resources */,
+				2629C7EA1E78BCF600CE378B /* Subway.csv in Resources */,
+				2629C7F01E78BDBD00CE378B /* JugoJuice.csv in Resources */,
+				2629C7EC1E78BCFA00CE378B /* TimHortons.csv in Resources */,
+				2629C7DA1E78BCDA00CE378B /* HighlandsPub.csv in Resources */,
+				2629C7E21E78BCE800CE378B /* PokeBar.csv in Resources */,
+				2629C7D21E78BCCA00CE378B /* DonairTown.csv in Resources */,
+				2629C7DC1E78BCDD00CE378B /* IchibankanExpress.csv in Resources */,
+				2629C7F21E78BDD800CE378B /* RenaissanceCoffee.csv in Resources */,
 				26BF0FF71E6A03FA0056713E /* Main.storyboard in Resources */,
+				2629C7D41E78BCCD00CE378B /* GawonKorean.csv in Resources */,
+				2629C7CA1E78BCB700CE378B /* BambooGarden.csv in Resources */,
+				2629C7DE1E78BCE200CE378B /* PizzaHut.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */,
+				2629C7A21E78BBFE00CE378B /* csv.swift in Sources */,
 				261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */,
 				26BF10041E6A08CE0056713E /* RestaurantClass.swift in Sources */,
 				261041231E6D275D00696157 /* ButtonCellTableViewCell.swift in Sources */,
@@ -275,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = restaurantlist/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ghof.restaurantlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = restaurantlist/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ghof.restaurantlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";

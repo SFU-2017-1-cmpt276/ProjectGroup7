@@ -1,0 +1,47 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+original sunny start with bacon,611,32,24.1,54.4,1270,No,No,Yes,Yes,No,No,No,No,Yes,Yes
+original sunny start with saudage,713,39.3,32.5,55.1,1318,No,No,Yes,Yes,No,No,No,No,Yes,Yes
+breakfast club with bacon,731,37,25.1,71.4,1570,No,No,Yes,Yes,No,No,No,No,Yes,Yes
+breakfast club with sausage,843,45,34.3,72.2,1633,No,No,Yes,Yes,No,No,No,No,Yes,Yes
+baja breakfast sandwich on white,598,31.3,26.3,55.6,884,No,Yes,Yes,Yes,No,No,No,No,Yes,No
+baja breakfast sandwich on multigrain,624,33.8,25.1,58.4,840,No,Yes,Yes,Yes,No,No,No,No,Yes,No
+bigger 2 egg breakfast,529,35.4,30.8,20,936.7,No,No,Yes,No,No,No,No,No,Yes,No
+multigrain toast,179,6.8,4.4,26.4,231,Yes,Yes,No,No,No,No,No,No,Yes,No
+white toast,165,5.6,5,25,253,Yes,Yes,No,No,No,No,No,No,Yes,No
+hasbrown,120,5,1,17,200,Yes,Yes,No,No,No,No,No,No,No,No
+original burger,789,49.2,29.7,54.6,807.9,No,No,No,No,No,No,No,No,Yes,Yes
+original cheesburger,860,54.1,33.8,56.9,1169.3,No,No,No,Yes,No,No,No,No,Yes,Yes
+kid's burger,778,49.1,29.1,52.2,803.1,No,No,No,No,No,No,No,No,Yes,Yes
+bacon cheddar burger,933,60.7,39.4,54.9,1138.1,No,No,No,Yes,No,No,No,No,Yes,Yes
+monty mushroom burger,943,62.4,37.2,57.3,811.9,No,No,No,Yes,No,No,No,No,Yes,Yes
+double double burger,1217,81.6,57.2,59.4,1648.8,No,No,No,Yes,No,No,No,No,Yes,Yes
+chiptole BBQ bacon melt,1043,61.9,39.5,60.4,1275.3,No,No,No,Yes,No,No,No,No,Yes,Yes
+crispy fish burger,684,31.6,24.7,71.1,1161.8,No,No,No,No,No,No,Yes,No,Yes,Yes
+baja chicken burger,746,38.9,31.8,66.6,1581.3,No,No,No,No,No,No,,No,Yes,Yes
+spicy ultimate crunch ,703,37.6,27.1,63,1256.6,No,No,No,No,No,No,No,No,Yes,Yes
+buffalo chicken club,714,34.1,36.3,63.7,2100.1,No,No,No,Yes,No,No,No,No,Yes,Yes
+grilled chicken feta burger,548,17.6,36.8,57.2,871.7,No,No,No,Yes,No,No,No,No,Yes,Yes
+the super stack burger,1036,63.6,43.9,69,1380.5,No,No,No,No,No,No,No,No,Yes,Yes
+cheese,69,4.8,4,2.3,357,No,Yes,No,Yes,No,No,No,No,No,No
+bacon,60,4.8,4.4,0,199.3,No,No,No,No,No,No,No,No,No,No
+mushrooms,17,1,1.3,1.4,8.4,Yes,Yes,No,No,No,No,No,No,No,No
+extra patty,430,33.9,29.1,0,98.3,No,No,No,No,No,No,No,No,No,No
+5 piece dippin chicken,270,10.9,21,17,550,No,No,No,No,No,No,No,No,Yes,Yes
+3 piece dippin chicken ,450,18.2,35,28.3,916.7,No,No,No,No,No,No,No,No,Yes,Yes
+caesar salad,328,28,6.6,14.5,484.4,No,Yes,No,Yes,No,No,No,No,No,Yes
+kid's grilled cheese,436,16.8,18.1,54.7,1195.9,No,Yes,No,Yes,No,No,No,No,Yes,No
+3 piece fish and chips,629,30,24.5,58.5,883.8,No,No,No,No,No,No,Yes,No,Yes,Yes
+side tartar sauce,210,22.5,1.5,3,240,No,Yes,No,No,No,No,No,No,No,Yes
+kids fries,134,6.2,2.1,18,71.3,Yes,Yes,No,No,No,No,No,No,No,No
+regular fries,239,12,3.5,30,118.8,Yes,Yes,No,No,No,No,No,No,No,No
+large fries,334,16.8,5,42,165.2,Yes,Yes,No,No,No,No,No,No,No,No
+side of gravy,38,0.9,1.9,5.7,608,No,No,No,No,No,No,No,No,Yes,No
+poutine,490,29.9,18.7,35.9,986.5,No,No,No,No,No,No,No,No,Yes,No
+onion rings,467,28.8,5.5,47.7,436.5,No,Yes,No,No,No,No,No,No,Yes,No
+garlic parmesan fries,267,14.1,5.7,31,133,No,Yes,No,Yes,No,No,No,No,No,No
+regular sweet potato fries,519,29.6,5.4,60.5,522.7,Yes,Yes,No,No,No,No,No,No,No,No
+large sweet potato fries,674,38.4,7,78.6,678,Yes,Yes,No,No,No,No,No,No,No,No
+side chipotle mayo,260,28,1,3,105,No,Yes,No,No,No,No,No,No,No,No
+chocolate sundae,366,18.9,4.2,46.7,138.2,No,Yes,No,Yes,No,No,No,No,No,No
+strawberry sundae,312,18.7,3.8,33.6,73.2,No,Yes,No,Yes,No,No,No,No,No,No
+blueberry sundae,246,18.7,3.8,37.7,110.8,No,Yes,No,Yes,No,No,No,No,No,No

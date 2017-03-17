@@ -84,11 +84,11 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="TopLeft" tableViewCell="HIc-OJ-1Hx" id="JM9-iu-oQO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="46.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZE6-uq-Ajs">
-                                                    <rect key="frame" x="15" y="13" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="15" y="13" width="34" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <rect key="contentStretch" x="0.10000000000000001" y="0.10000000000000001" width="1" height="1"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -96,7 +96,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RsR-c6-pcO">
-                                                    <rect key="frame" x="316" y="13" width="44" height="20.5"/>
+                                                    <rect key="frame" x="316" y="13" width="44" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -111,16 +111,34 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="19V-n0-Usx"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AxI-O4-zA7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="aaC-OG-yxs"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="xRY-4s-56C"/>
                     <connections>
+                        <outlet property="searchDisplayController" destination="364-na-5mS" id="Kz7-aF-TSN"/>
                         <outlet property="table" destination="3yE-oN-3F1" id="9Ku-Da-wXm"/>
                         <segue destination="1a2-Bh-YuC" kind="show" identifier="Items" id="eMF-Iu-Ku4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="364-na-5mS">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="sEl-IA-xlq"/>
+                        <outlet property="searchBar" destination="AxI-O4-zA7" id="YoG-AW-fv7"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="YGQ-xt-MyU"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="prU-tY-74b"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="Dp3-GP-b6A"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1868" y="38.23088455772114"/>
         </scene>
