@@ -175,11 +175,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     //Functions necessary for tableView **************************************************************
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if self.searchDisplayController.shouldShowSearchResults{
-            return filteredArray.count
-        }
-        else{
-            return RestaurantArray.count}
+     
+            return RestaurantArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
