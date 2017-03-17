@@ -51,6 +51,9 @@
                                 <rect key="frame" x="256" y="476" width="158" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="RecipeSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0P-H2-PlD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,11 +64,30 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="lfZ-Q7-1VO" id="zP3-fD-Xzp"/>
+                        <segue destination="QrT-eg-mLg" kind="show" identifier="recipeList" id="CxC-D2-Nr4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ra9-qq-Gvq">
+            <objects>
+                <viewController id="QrT-eg-mLg" userLabel="Second View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="01w-eb-HHt"/>
+                        <viewControllerLayoutGuide type="bottom" id="9N1-ja-Xxu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a9d-7G-BbH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EW4-D1-lae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783" y="39"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9y1-vB-Umw">

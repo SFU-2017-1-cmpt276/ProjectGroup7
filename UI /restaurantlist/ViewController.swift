@@ -4,6 +4,10 @@
 //
 //  Created by Grazietta Hof on 2017-03-03.
 //  Copyright © 2017 Grazietta Hof. All rights reserved.
+<<<<<<< HEAD
+=======
+//  Modified by Francesca Ramunno
+>>>>>>> 38fa8796bfcdf3c4450cc520a0c9937fc50c5ef4
 //
 
 import UIKit
@@ -211,7 +215,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             let csv = try CSV(contentsOfURL: path!)
             let rows = csv.rows
+<<<<<<< HEAD
             var index = 0
+=======
+            var index = 0 // will keep track of array indexes
+>>>>>>> 38fa8796bfcdf3c4450cc520a0c9937fc50c5ef4
             
             for row in rows {
                 
@@ -302,6 +310,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
     }
     
+<<<<<<< HEAD
     
     //****************** Search Bar Functions *************************
     
@@ -309,6 +318,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
 
     
+=======
+>>>>>>> 38fa8796bfcdf3c4450cc520a0c9937fc50c5ef4
   
     
 }
+
