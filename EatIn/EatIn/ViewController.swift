@@ -61,6 +61,20 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
         collectionView.reloadData() //reload data to remove ingredient from array
     }
     
+    //function to check if ingredient already present in the ingredients array
+    func ingredientCheck(ingredientName : String) -> Bool{
+        var flag = false
+        var i = 0
+        while i < ingredients.count{
+            if ingredientName == ingredients[i]{
+            flag = true
+            break
+         }
+           i += 1
+     }
+       return flag
+    }
+    
     //append new ingredient to array
     func addToList(ingredientName : String) {
         ingredients.append(ingredientName)
@@ -151,6 +165,7 @@ class Header : BaseCell {
         return flag
     }
     
+    
     //function to add ingredient to array if string meets requirements for being less than 15 letters, correctly spelt
     //and not containing any digits
     func Ingredient(sender: Any?) {
@@ -163,7 +178,13 @@ class Header : BaseCell {
                 parentViewController?.present(alertController, animated: true, completion: nil)
                 
             }
-                
+                //create pop-up if ingredient already in ingredients array
+            else if viewController.ingredientCheck(ingredientName: IngredientField.text!){
+                let alertController = UIAlertController(title: "Error", message: "Please insert an ingredient not already on the list", preferredStyle: UIAlertControllerStyle.alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
+                parentViewController?.present(alertController, animated: true, completion: nil)
+
+            }
             //add ingredient to array if correctly spelt and doesnt contain a digit
             else if isReal(word: IngredientField.text!) && !isalpha(word: IngredientField.text!) {
             viewController.addToList(ingredientName: IngredientField.text!)
