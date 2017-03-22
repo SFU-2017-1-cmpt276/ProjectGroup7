@@ -1,2 +1,20 @@
-Hello World :) !!
+README
 
+/***********************************************************************/
+The CSV files provided provide information regarding all the information
+for the restaurants, food items they offer, and corresponding nutritional
+information.
+/***********************************************************************/
+The CSV files are parsed using an open source Swift parser to extract
+required information.
+/***********************************************************************/
+The ttf files are used for the custom fonts used in the interface.
+/***********************************************************************/
+The Swift files include all coding for the functionalities of the program:
+
+For the dine out option, these functionalities include getting the users 
+location, calculating the distance from the restaurants, and parsing the CSVs.
+
+For the eat in option these functionalities include add to and remove from the 
+ingredient list, search for recipes, and check for input validation.
+/***********************************************************************/
