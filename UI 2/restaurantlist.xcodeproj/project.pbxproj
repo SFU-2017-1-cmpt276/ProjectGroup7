@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		261041231E6D275D00696157 /* ButtonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */; };
+		2617B64A1E83316100A607B2 /* EatInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2617B6491E83316100A607B2 /* EatInViewController.swift */; };
 		261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */; };
 		261AA5D71E6BA86500C827C5 /* ItemListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AA5D61E6BA86500C827C5 /* ItemListClass.swift */; };
 		2629C7A21E78BBFE00CE378B /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629C7A11E78BBFE00CE378B /* csv.swift */; };
@@ -33,6 +34,11 @@
 		2629C7F01E78BDBD00CE378B /* JugoJuice.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7EF1E78BDBD00CE378B /* JugoJuice.csv */; };
 		2629C7F21E78BDD800CE378B /* RenaissanceCoffee.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7F11E78BDD800CE378B /* RenaissanceCoffee.csv */; };
 		2629C7F41E78BE2000CE378B /* NaturesGardenSFU.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2629C7F31E78BE2000CE378B /* NaturesGardenSFU.csv */; };
+		264C779F1E8265050013E86D /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C77981E8265050013E86D /* BEMAnimationManager.m */; };
+		264C77A01E8265050013E86D /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779A1E8265050013E86D /* BEMCheckBox.m */; };
+		264C77A11E8265050013E86D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779C1E8265050013E86D /* BEMCheckBoxGroup.m */; };
+		264C77A21E8265050013E86D /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779E1E8265050013E86D /* BEMPathManager.m */; };
+		26A2B7391E8720D4005CF84D /* ItemSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2B7381E8720D4005CF84D /* ItemSearchViewController.swift */; };
 		26BF0FF21E6A03FA0056713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF11E6A03FA0056713E /* AppDelegate.swift */; };
 		26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0FF31E6A03FA0056713E /* ViewController.swift */; };
 		26BF0FF71E6A03FA0056713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BF0FF51E6A03FA0056713E /* Main.storyboard */; };
@@ -43,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonCellTableViewCell.swift; path = ../ButtonCellTableViewCell.swift; sourceTree = "<group>"; };
+		2617B6491E83316100A607B2 /* EatInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatInViewController.swift; sourceTree = "<group>"; };
 		261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		261AA5D61E6BA86500C827C5 /* ItemListClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListClass.swift; sourceTree = "<group>"; };
 		2629C7A11E78BBFE00CE378B /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = SOURCE_ROOT; };
@@ -68,6 +75,16 @@
 		2629C7EF1E78BDBD00CE378B /* JugoJuice.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JugoJuice.csv; path = CSV/JugoJuice.csv; sourceTree = SOURCE_ROOT; };
 		2629C7F11E78BDD800CE378B /* RenaissanceCoffee.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RenaissanceCoffee.csv; path = CSV/RenaissanceCoffee.csv; sourceTree = SOURCE_ROOT; };
 		2629C7F31E78BE2000CE378B /* NaturesGardenSFU.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NaturesGardenSFU.csv; path = CSV/NaturesGardenSFU.csv; sourceTree = SOURCE_ROOT; };
+		264C77951E82640B0013E86D /* CheckMarkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckMarkHeader.h; path = ../CheckMarkHeader.h; sourceTree = "<group>"; };
+		264C77971E8265050013E86D /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		264C77981E8265050013E86D /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		264C77991E8265050013E86D /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		264C779A1E8265050013E86D /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		264C779B1E8265050013E86D /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		264C779C1E8265050013E86D /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		264C779D1E8265050013E86D /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		264C779E1E8265050013E86D /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		26A2B7381E8720D4005CF84D /* ItemSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSearchViewController.swift; sourceTree = "<group>"; };
 		26BF0FEE1E6A03FA0056713E /* restaurantlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF0FF11E6A03FA0056713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26BF0FF31E6A03FA0056713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +106,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264C77961E8265050013E86D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				264C77971E8265050013E86D /* BEMAnimationManager.h */,
+				264C77981E8265050013E86D /* BEMAnimationManager.m */,
+				264C77991E8265050013E86D /* BEMCheckBox.h */,
+				264C779A1E8265050013E86D /* BEMCheckBox.m */,
+				264C779B1E8265050013E86D /* BEMCheckBoxGroup.h */,
+				264C779C1E8265050013E86D /* BEMCheckBoxGroup.m */,
+				264C779D1E8265050013E86D /* BEMPathManager.h */,
+				264C779E1E8265050013E86D /* BEMPathManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		26BF0FE51E6A03FA0056713E = {
 			isa = PBXGroup;
 			children = (
@@ -108,13 +140,17 @@
 		26BF0FF01E6A03FA0056713E /* restaurantlist */ = {
 			isa = PBXGroup;
 			children = (
+				264C77961E8265050013E86D /* Classes */,
 				26BF0FF11E6A03FA0056713E /* AppDelegate.swift */,
 				26BF0FF31E6A03FA0056713E /* ViewController.swift */,
 				261AA5D41E6B92FB00C827C5 /* ItemViewController.swift */,
 				26BF10031E6A08CE0056713E /* RestaurantClass.swift */,
+				2617B6491E83316100A607B2 /* EatInViewController.swift */,
 				261041221E6D275D00696157 /* ButtonCellTableViewCell.swift */,
 				261AA5D61E6BA86500C827C5 /* ItemListClass.swift */,
 				26BF0FF51E6A03FA0056713E /* Main.storyboard */,
+				26A2B7381E8720D4005CF84D /* ItemSearchViewController.swift */,
+				264C77951E82640B0013E86D /* CheckMarkHeader.h */,
 				2629C7CB1E78BCBD00CE378B /* BigSmokeBurgers.csv */,
 				2629C7C91E78BCB700CE378B /* BambooGarden.csv */,
 				2629C7CD1E78BCC200CE378B /* BubbleWorld.csv */,
@@ -240,12 +276,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF0FF41E6A03FA0056713E /* ViewController.swift in Sources */,
+				264C77A21E8265050013E86D /* BEMPathManager.m in Sources */,
 				2629C7A21E78BBFE00CE378B /* csv.swift in Sources */,
 				261AA5D51E6B92FB00C827C5 /* ItemViewController.swift in Sources */,
+				26A2B7391E8720D4005CF84D /* ItemSearchViewController.swift in Sources */,
+				264C77A11E8265050013E86D /* BEMCheckBoxGroup.m in Sources */,
+				264C77A01E8265050013E86D /* BEMCheckBox.m in Sources */,
 				26BF10041E6A08CE0056713E /* RestaurantClass.swift in Sources */,
 				261041231E6D275D00696157 /* ButtonCellTableViewCell.swift in Sources */,
+				2617B64A1E83316100A607B2 /* EatInViewController.swift in Sources */,
 				26BF0FF21E6A03FA0056713E /* AppDelegate.swift in Sources */,
 				261AA5D71E6BA86500C827C5 /* ItemListClass.swift in Sources */,
+				264C779F1E8265050013E86D /* BEMAnimationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ghof.restaurantlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -384,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ghof.restaurantlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -6,26 +6,49 @@
 //  Copyright © 2017 Grazietta Hof. All rights reserved.
 //
 
+//coding standard:
+//The names of variables and items should be self-descriptive
+//if any changes are made to existing code in this file notify all programmers in the group chat
+//Xcode bracket convention should be followed
+//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+
+//File description:
+//This file is the viewController for the title page
+
+//Known bugs:
+//The GPS feature does not reload every few seconds, this still needs to be implemented
+//an error may occur of the user is moving very fast and the app is loading with the distance function as the user location may be changing rapidly: this needs to be tested
+
+
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,CLLocationManagerDelegate{
+class ViewController: UITableViewController,CLLocationManagerDelegate
+{
     
-    @IBOutlet weak var table: UITableView!
+    @IBOutlet var table: UITableView!
     
+    @IBOutlet weak var allItems: UIBarButtonItem!
+    var nilLocationFlag = 1
+ 
+    
+   // var resultSearchController = UISearchController()
     //initialize the filtered array for search functionality
-    var filteredArray: [RestaurantClass] = []
-    
+    var filtered = [RestaurantClass]()
+    let searchController = UISearchController(searchResultsController: nil)
     
     //Initialize any variables to be used
     var selectedRow: Int = -1
     
     //Initialize coordinates for the GPS Feature
-    var locManager: CLLocationManager!
-    var currLocation: CLLocation!
+    var locManager = CLLocationManager()
+
     
     //Initialize an array containing all the restaurants
-    var RestaurantArray:[RestaurantClass] = []
+    var RestaurantArray = [RestaurantClass]()
+    var ArrayItems = [ItemListClass]()
+
     
     //initialize all restaurants
     var Restaurant1 = RestaurantClass(name:"Starbucks", items: [],distance:10, long: -122.92881, lat: 49.277839)
@@ -50,11 +73,40 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     var Restaurant20 = RestaurantClass(name: "Spicy Stone", items: [], distance: 7, long: -122.101, lat:49.2477)
     var Restaurant21 = RestaurantClass(name: "Subway", items: [], distance: 7, long: -122.101, lat:49.2477)
     var Restaurant22 = RestaurantClass(name: "Tim Hortons", items: [], distance: 7, long: -122.101, lat:49.2477)
-
+    
     /***************************************************************************************************/
     
+  
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+       //var button = self.navigationItem.leftBarButtonItem
+      // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = allItems
+        
+       /* let button = UIBarButtonItem()
+        self.navigationItem.rightBarButtonItem = button*/
+        
+        //*********Navigation Button************//
+        // Setup the Search Controller
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.delegate = self
+        definesPresentationContext = true
+        searchController.dimsBackgroundDuringPresentation = false
+        
+        // Setup the Scope Bar
+        //searchController.searchBar.scopeButtonTitles = ["Restaurant", "Food Items"]
+        tableView.tableHeaderView = searchController.searchBar
+        
+        
+        //set up the GPS feature
+        locManager.delegate = self
+        locManager.desiredAccuracy = kCLLocationAccuracyBest
+        locManager.requestWhenInUseAuthorization()
+        locManager.startMonitoringSignificantLocationChanges()
+        locManager.startUpdatingLocation()
+    
         
         let ArrayItems1 = parseCSV(name: "Starbucks")
         let ArrayItems2 = parseCSV(name: "PizzaHut")
@@ -128,11 +180,31 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         RestaurantArray.insert(Restaurant22, at:21)
         /*********************************************/
         
-        //Get location
+        //load items into an array
         
-        locManager = CLLocationManager()
-        locManager.requestWhenInUseAuthorization()
-        currLocation = locManager.location
+        ArrayItems = ArrayItems1
+        ArrayItems = ArrayItems2 + ArrayItems
+        ArrayItems = ArrayItems3 + ArrayItems
+        ArrayItems = ArrayItems4 + ArrayItems
+        ArrayItems = ArrayItems5 + ArrayItems
+        ArrayItems = ArrayItems6 + ArrayItems
+        ArrayItems = ArrayItems7 + ArrayItems
+        ArrayItems = ArrayItems8 + ArrayItems
+        ArrayItems = ArrayItems9 + ArrayItems
+        ArrayItems = ArrayItems10 + ArrayItems
+        ArrayItems = ArrayItems11 + ArrayItems
+        ArrayItems = ArrayItems12 + ArrayItems
+        ArrayItems = ArrayItems13 + ArrayItems
+        ArrayItems = ArrayItems14 + ArrayItems
+        ArrayItems = ArrayItems15 + ArrayItems
+        ArrayItems = ArrayItems16 + ArrayItems
+        ArrayItems = ArrayItems17 + ArrayItems
+        ArrayItems = ArrayItems18 + ArrayItems
+        ArrayItems = ArrayItems19 + ArrayItems
+        ArrayItems = ArrayItems20 + ArrayItems
+        ArrayItems = ArrayItems21 + ArrayItems
+        ArrayItems = ArrayItems22 + ArrayItems
+    
 
         
         //Apply distance function to each restaurant function in array to find the distance from user
@@ -144,10 +216,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         //sort the array by distance
         RestaurantArray =  RestaurantArray.sorted(by: {$0.distance < $1.distance})
         
-        
+        self.table.reloadData()
       
-    
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -158,45 +230,109 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func calculate_distance(restaurant: RestaurantClass){
         
-        //initialize the user latitude and longitude (ignore warnings: keep it as "var" for now)
-        var latitude = currLocation.coordinate.latitude
-        var longitude = currLocation.coordinate.longitude
         
-        //print user latitude and longitude for testing
-        print("user latitude: ", latitude)
-        print("user longitude:", longitude)
         
-        let userLocation:CLLocation = CLLocation(latitude:latitude, longitude: longitude)
-        let RestaurantLoc:CLLocation = CLLocation(latitude: restaurant.lat, longitude: restaurant.long)
-        let meters:CLLocationDistance = RestaurantLoc.distance(from: userLocation)
-        //the /1000 is temporary: device uses San Fran coordinates
-        restaurant.distance = round(meters/1000)
+        if( CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse){
+        
+            //initialize the user latitude and longitude (ignore warnings: keep it as "var" for now)
+            
+            
+            func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {}
+                print(":)")
+            
+                let location: CLLocation! = locManager.location
+            
+            if location != nil{
+            
+               // let latitude = location.coordinate.latitude
+               // let longitude = location.coordinate.longitude
+            
+            let latitude = 49.2780937
+            let longitude = -122.91988329999998
+            
+            
+            
+                //print user latitude and longitude for testing
+                print("user latitude: ", latitude)
+                print("user longitude:", longitude)
+            
+                let userLocation:CLLocation = CLLocation(latitude:latitude, longitude: longitude)
+                let RestaurantLoc:CLLocation = CLLocation(latitude: restaurant.lat, longitude: restaurant.long)
+                let meters:CLLocationDistance = RestaurantLoc.distance(from: userLocation)
+            
+                //the /1000 is temporary: device uses San Fran coordinates
+                restaurant.distance = round(meters)
+                table.reloadData()
+            }
+        }
+        
     }
-    //Functions necessary for tableView **************************************************************
+    //Functions necessary for tableView**************************************************************
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-     
-            return RestaurantArray.count
+    //This function returns the number of rows in the tableview. It also takes into account the activity of the search bar
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+
+        if searchController.isActive && searchController.searchBar.text != "" {
+            return self.filtered.count
+            
+        }
+
+        return RestaurantArray.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = RestaurantArray[indexPath.row].Name
-        cell.detailTextLabel?.text = String(RestaurantArray[indexPath.row].distance) + "km away"
-        return cell
+    //This function is responsible for the tableView ouptut in the cells. It also takes into account a filtered array for the search bar and returns the "reusable cell"
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell?
+         let rest: RestaurantClass
+        if searchController.isActive && searchController.searchBar.text != "" {
+           
+            rest = filtered[indexPath.row]
+        }
+        else {
+            rest = RestaurantArray[indexPath.row]
+        }
+        cell?.textLabel?.text = rest.Name
+        if nilLocationFlag == 0{
+        cell?.detailTextLabel?.text = String(rest.distance) + "m away"}
+        return cell!
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "Items", sender: Any?.self)
-        selectedRow = indexPath.row
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       // self.performSegue(withIdentifier: "Items", sender: Any?.self)
     }
+    
+    
+    
     //************************************************************************************************
     
-    //The following function passes an array of the class "itemListClass" to the ItemDetail viewcontroller
+    //The following function passes an array of the class "itemListClass" to the ItemDetail viewcontroller to be used when a cell is selected
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let ItemView: ItemViewController = segue.destination as! ItemViewController
-        selectedRow = table.indexPathForSelectedRow!.row
-        ItemView.data =  RestaurantArray[selectedRow].Items
+        
+        if segue.identifier == "totalItems"{
+            
+            let controller = segue.destination as! ItemSearchViewController
+            
+            controller.data =  ArrayItems
+            print("hi")
+        }
+        
+        
+        if(segue.identifier != "totalItems" && segue.identifier != "home"){
+           let ItemView: ItemViewController = segue.destination as! ItemViewController
+        
+           selectedRow = table.indexPathForSelectedRow!.row
+        
+            if searchController.isActive && searchController.searchBar.text != "" {
+                ItemView.data = filtered[selectedRow].Items
+            }
+        
+            else{
+                ItemView.data =  RestaurantArray[selectedRow].Items
+            }
+        }
+     
     }
     
     /*************************************************************************************************/
@@ -300,15 +436,57 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         return RestaurantItems
         
+        }
+
+
+    //****************** Search Bar Functions *************************
+    //This function filters the array of restaurants depending on the user input into the search bar, and reloads the tableView
+    
+    
+    func goToSegue() {
+        self.performSegue(withIdentifier: "totalItems", sender: self)
     }
     
-    
-    //****************** Search Bar Functions *************************
-    
-    
-    
 
-    
-  
-    
+
+func filterContentForSearchText(_ searchText: String) {
+    filtered = RestaurantArray.filter({( restaurant : RestaurantClass) -> Bool in
+        return restaurant.Name.lowercased().contains(searchText.lowercased())
+    })
+    tableView.reloadData()
 }
+
+}
+
+extension ViewController: UISearchBarDelegate {
+    // MARK: - UISearchBar Delegate
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        filterContentForSearchText(searchBar.text!)
+    }
+}
+
+extension ViewController: UISearchResultsUpdating {
+    // MARK: - UISearchResultsUpdating Delegate
+    func updateSearchResults(for searchController: UISearchController) {
+        //let searchBar = searchController.searchBar
+        
+        filterContentForSearchText(searchController.searchBar.text!)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
