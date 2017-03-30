@@ -1,0 +1,44 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+Freshman Burger,325,22.4,14.2,18.3,362,No,No,No,No,No,No,No,No,Yes,No
+Graduate Burger,394,24.1,23.9,19.2,282,No,No,No,Yes,No,No,No,No,Yes,No
+Reuben sandwich,466,27.4,20.7,33.3,967,No,No,No,Yes,No,No,No,No,Yes,No
+Street Dog,648,43,24.6,43.6,1153,No,No,No,Yes,No,No,No,No,Yes,No
+Seared Tuna Burger,625,28.3,40.2,21.1,452,No,Yes,No,No,No,No,Yes,No,Yes,No
+Veggie Burger,312,1.42,11.5,16.4,476,Yes,Yes,No,No,No,No,No,No,Yes,No
+Turkey & Brie Sandwich,503,18.5,47.6,33.5,1382,No,No,No,Yes,No,No,No,No,Yes,No
+Beef Dip,544,16.7,26.7,42,1200,No,No,No,Yes,No,No,No,No,Yes,No
+Ilia's Clumb House,591,22,46,53,1688,No,No,No,No,No,No,No,No,Yes,No
+BLT,549,34,16.2,42.5,1094,No,No,No,No,No,No,No,No,Yes,No
+Cobb Salad,281,11.4,34.7,11.6,1115.4,No,Yes,No,Yes,No,No,No,No,No,No
+Spinach Salad,353,12.2,13,48.1,1103,No,Yes,No,No,No,No,No,No,Yes,No
+Ilia's Salad,376,13.9,38,9.7,947,No,No,No,Yes,No,Yes,No,No,No,No
+Char Broiled Steak Salad,384,16.3,45.3,12.5,1156,No,No,No,Yes,No,No,No,No,No,No
+Caprese Salad,250,18,14,9,540,Yes,Yes,No,No,No,No,No,No,No,No
+Caesar Salad,264,18.3,9.6,12.6,523,No,No,No,Yes,No,No,No,No,No,No
+French Onion Soup,369,16.5,15.9,39.33,930,No,No,No,Yes,No,No,No,No,Yes,No
+Pho,337,4.5,32.6,41.6,1425,No,No,No,No,No,No,No,No,No,No
+Green Thai Curry Bowl,345,24.67,19.7,14.26,737,Yes,Yes,No,No,No,No,No,Yes,Yes,No
+Cajun Sausage Mac n' Cheese,395,14.6,17.8,52.3,1132.1,No,No,No,Yes,No,No,No,No,Yes,No
+Meatball linguini,378,14.6,18.6,47.2,965,No,No,No,No,No,No,No,No,Yes,No
+Baked Chicken Penne,341,5,25.2,56.4,580.6,No,No,No,Yes,No,No,No,No,Yes,No
+Mediterranean Linguini,490,23,15,57,950,No,Yes,No,Yes,No,No,No,No,Yes,No
+Bombay Curry,486.45,32.6,31.74,19.8,851,No,No,No,No,No,No,No,No,Yes,No
+Stirfry,364,9.3,11.5,53.4,913,Yes,Yes,No,No,No,No,No,No,No,No
+Super Mario's Pizzetta,540,25.6,33.8,43.2,1143,No,No,No,Yes,No,No,No,No,Yes,No
+Prosciutto Pizzetta,507,24.2,30.32,41.4,1363,No,No,No,Yes,No,No,No,No,Yes,No
+Veggie Pizzetta,533,30.2,26,42,1324,No,Yes,No,Yes,No,No,No,No,Yes,No
+Polo Pizzetta,524,38.4,35.5,46.2,1215,No,No,No,Yes,No,No,No,No,Yes,No
+Italian Suasage Pizzeta,597,36.2,39.6,42.7,1431,No,No,No,Yes,No,No,No,No,Yes,No
+Margherita Pizzetta,512,31.4,42.1,43.5,1034,No,Yes,No,Yes,No,No,No,No,Yes,No
+Curry Chicken Pizzetta,571,32.9,36.3,45.2,1294,No,No,No,No,No,No,No,No,Yes,No
+The Classic Pizzetta,534,37.2,34.2,44.2,1239.1,No,No,No,Yes,No,No,No,No,Yes,No
+Chicken/Eggplant Parmesan,456.6,12.5,38.4,46.9,750,No,Yes,No,Yes,No,No,No,No,Yes,No
+New York Steak,552,37.5,49.8,36.3,562,No,No,No,No,No,No,No,No,No,No
+Fish n' Chips,660,34.7,19.7,67.4,1273,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No
+Poutine,255,15,9,22,752,Yes,Yes,No,Yes,No,No,No,No,No,No
+Wings,215,8,12,24,421,No,No,No,No,No,No,No,No,No,No
+Hummus + Pita,229,9.2,4.5,30.2,489.1,Yes,Yes,No,No,No,No,No,No,Yes,No
+French Fries,321,12.3,4.2,41.2,352.3,Yes,Yes,No,No,No,No,No,No,No,No
+Yam Fries,170,8,1,23,160,Yes,Yes,No,No,No,No,No,No,No,No
+Gyoza,147,8.4,4.2,13.2,356,No,No,No,No,No,No,No,No,Yes,No
+Nachos,346,19,9,36,815.9,No,No,Yes,No,No,No,No,No,No,
