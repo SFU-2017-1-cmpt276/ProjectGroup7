@@ -1,0 +1,73 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+Regular Roasted Veggies Burrito ,490,2,17,69,864,Yes,Yes,No,No,No,No,No,No,Yes,No
+Large Roasted Veggies Burrito ,710,2.9,24.65,100.05,1252.8,Yes,Yes,No,No,No,No,No,No,Yes,No
+Big Ass Roasted Veggies Burrito ,1030,4.4,37.4,151.8,1900.8,Yes,Yes,No,No,No,No,No,No,Yes,No
+Regular Beans Burrito ,560,8,24,80,984,Yes,Yes,No,No,No,No,No,No,Yes,No
+Large Beans Burrito ,780,11.2,33.6,112,1377.6,Yes,Yes,No,No,No,No,No,No,Yes,No
+Big Ass Beans Burrito ,1130,16.6,48.48,161.6,1987,Yes,Yes,No,No,No,No,No,No,Yes,No
+Regular Spicy Chicken Burrito ,550,19,31,66,941,No,No,No,No,No,No,No,No,Yes,No
+Large Spicy Chicken Burrito ,790,27.36,44.64,95.04,1355,No,No,No,No,No,No,No,No,Yes,No
+Big Ass Spicy Chicken Burrito ,1200,42,68.2,355.52,2070,No,No,No,No,No,No,No,No,Yes,No
+Regular Ancho Pork Burrito ,550,18,32,66,1003,No,No,No,No,No,No,No,No,Yes,No
+Large Ancho Pork Burrito ,790,26,46,95,2980,No,No,No,No,No,No,No,No,Yes,No
+Big Ass Ancho Pork Burrito ,1200,39.6,70.4,145.2,2206.6,No,No,No,No,No,No,No,No,Yes,No
+Regular Flame Grilled Chicken Burrito ,550,17,32,67,1129,No,No,No,No,No,No,No,No,Yes,No
+Large Flame Grilled Chicken Burrito ,790,24.48,46.08,96.48,1625.76,No,No,No,No,No,No,No,No,Yes,No
+Big Ass Flame Grilled Chicken Burrito ,1190,37.4,70.4,147.2,2483.8,No,No,No,No,No,No,No,No,Yes,No
+Regular Steak Burrito ,610,23,35,66,1176,No,No,No,No,No,No,No,No,Yes,No
+Large Steak Burrito ,880,33.12,50.4,95,3575.5,No,No,No,No,No,No,No,No,Yes,No
+Big Ass Steak Burrito ,1380,52,79,149.16,2657.76,No,No,No,No,No,No,No,No,Yes,No
+Regular Chile Lime Fish Buritto,620,23,35,71,1164,No,No,No,No,No,No,Yes,No,Yes,No
+Large Chile Lime Fish Buritto,910,33.81,51.45,104.37,1711.08,No,No,No,No,No,No,Yes,No,Yes,No
+Big Ass Chile Lime Fish Buritto,1350,50.6,77,156.2,2560.8,No,No,No,No,No,No,Yes,No,Yes,No
+Roasted Veggies 1 Taco,150,7,5,17,116,Yes,Yes,No,No,No,No,No,No,No,No
+Beans 1 Taco,180,6,8,24,420,Yes,Yes,No,No,No,No,No,No,No,No
+Spicy Chicken 1 Taco,180,8,15,20,416,No,No,No,No,No,No,No,No,No,No
+Ancho Pork 1 Taco,180,8,11,5,185,No,No,No,No,No,No,No,No,No,No
+Flame Grilled Chicken 1 Taco,170,6,13,19,468,No,No,No,No,No,No,No,No,No,No
+Steak 1 Taco,200,9,13,19,469,No,No,No,No,No,No,No,No,No,No
+Chile Lime Fish 1 Taco,210,10,13,18,266,No,No,No,No,No,No,Yes,No,No,No
+Roasted Veggies 3 Tacos,450,21,16,15,348,No,Yes,No,No,No,No,No,No,No,No
+Beans 3 Tacos,540,18,24,72,1260,No,Yes,No,No,No,No,No,No,No,No
+Spicy Chicken 3 Tacos,540,24,45,60,1248,No,No,No,No,No,No,No,No,No,No
+Ancho Pork 3 Tacos,540,23,35,45,555,No,No,No,No,No,No,No,No,No,No
+Flame Grilled Chicken 3 Tacos,510,17,38,56,1404,No,No,No,No,No,No,No,No,No,No
+Steak 3 Tacos,600,28,38,57,1407,No,No,No,No,No,No,No,No,No,No
+Chile Lime Fish 3 Taco,630,30,38,53,798,No,No,No,No,No,No,Yes,No,No,No
+Roasted Veggies Quesadilla,650,22,22,61,1243,No,Yes,No,Yes,No,No,No,No,No,No
+Beans Quesadilla,750,33,31,88,1242,No,Yes,No,Yes,No,No,No,No,No,No
+Spicy Chicken Quesadilla,740,37,42,67,1178,No,No,No,Yes,No,No,No,No,No,No
+Ancho Pork Quesadilla,740,56,8,33,2352,No,No,No,Yes,No,No,No,No,No,No
+Flame Grilled Chicken Quesadilla,730,34,43,68,1460,No,No,No,Yes,No,No,No,No,No,No
+Steak Quesadilla,820,42,47,67,1531,No,No,No,Yes,No,No,No,No,No,No
+Chile Lime Fish Quesadilla,850,42,48,76,1518,No,No,No,Yes,No,No,Yes,No,No,No
+Regular Roasted Veggies Burrito Bowl,300,11,14,40,541,No,Yes,No,No,No,No,No,No,No,No
+Regular Beans Burrito Bowl,370,11,18,51,661,No,Yes,No,No,No,No,No,No,No,No
+Regular Spicy Chicken Burrito Bowl,360,13,25,37,618,No,No,No,No,No,No,No,No,No,No
+Regular Ancho Pork Burrito Bowl,360,12,27,37,680,No,No,No,No,No,No,No,No,No,No
+Regular Flame Grilled Chicken Burrito Bowl ,350,11,26,38,807,No,No,No,No,No,No,No,No,No,No
+Regular Steak Burrito Bowl,410,17,29,37,854,No,No,No,No,No,No,No,No,No,No
+Regular Chile Lime Fish Burrito Bowl,430,17,29,43,842,No,No,No,No,No,No,Yes,No,No,No
+Large Roasted Veggies Burrito Bowl,430,20,37,52,893,Yes,Yes,No,No,No,No,No,No,No,No
+Large Beans Burrito Bowl,500,16,25,67,497,Yes,Yes,No,No,No,No,No,No,No,No
+Large Spicy Chicken Burrito Bowl,520,17,39,54,1175,No,No,No,No,No,No,No,No,No,No
+Large Ancho Pork Burrito Bowl,520,18,39,53,986,No,No,No,No,No,No,No,No,No,No
+Large Flame Grilled Chicken Burrito Bowl ,510,17,39,54,1175,No,No,No,No,No,No,No,No,No,No
+Large Steak Burrito Bowl,600,25,43,52,1246,No,No,No,No,No,No,No,No,No,No
+Large Chile Lime Fish Burrito Bowl,630,25,43,61,1232,No,No,No,No,No,No,Yes,No,No,No
+Roasted Veggies Tortilla Salad,570,26.4,4.4,74.8,836,Yes,Yes,No,No,No,No,No,No,No,No
+Beans Tortilla Salad,630,23.72,21.2,100,1076.16,Yes,Yes,No,No,No,No,No,No,No,No
+Spicy Chicken Tortilla Salad,650,23.72,21.2,100,1076.16,No,No,No,No,No,No,No,No,No,No
+Ancho Pork Tortilla Salad,650,23.72,21.2,100,1076.16,No,No,No,No,No,No,No,No,No,No
+Flame Grilled Tortilla Salad,650,23.72,21.2,100,1076.16,No,No,No,No,No,No,No,No,No,No
+Steak Tortilla Salad,740,33.22,33.7,100,1100,No,No,No,No,No,No,No,No,No,No
+Chile Lime Fish Tortilla Salad,760,23,21,100,1076,No,No,No,No,No,No,Yes,No,No,No
+Veggie Nachos,840,25,66.6,68.4,984.6,No,Yes,No,Yes,No,No,No,No,No,No
+Bean Nachos,860,30.52,41.4,106.82,1446.7,No,Yes,No,Yes,No,No,No,No,No,No
+Chicken Nachos,920,50,53,93,2731,No,No,No,Yes,No,No,No,No,No,No
+Steak Nachos,980,70,60,12,2731,No,No,No,Yes,No,No,No,No,No,No
+Pork Nachos,890,48,40,73.8,2130,No,No,No,Yes,No,No,No,No,No,No
+Small Chips and Salsa,300,18,6,44,1209,Yes,Yes,No,No,No,No,No,No,No,No
+Large Chips and Salsa,380,22.68,7.2,52,1440,Yes,Yes,No,No,No,No,No,No,No,No
+Small Chips and Guacamole,380,27,4,46,515,Yes,Yes,No,No,No,No,No,No,No,No
+Large Chips and Guacamole,760,54,8,90,1030,Yes,Yes,No,No,No,No,No,No,No,No
