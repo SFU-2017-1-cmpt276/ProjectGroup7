@@ -12,9 +12,9 @@ The ttf files are used for the custom fonts used in the interface.
 /***********************************************************************/
 The Swift files include all coding for the functionalities of the program:
 
-For the dine out option, these functionalities include getting the users 
+For the Eat Out option, these functionalities include getting the users 
 location, calculating the distance from the restaurants, and parsing the CSVs.
 
-For the eat in option these functionalities include add to and remove from the 
+For the Dine In option these functionalities include add to and remove from the 
 ingredient list, search for recipes, and check for input validation.
 /***********************************************************************/
