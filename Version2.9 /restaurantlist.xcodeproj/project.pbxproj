@@ -58,25 +58,6 @@
 		262D5A3F1E937AA40034CF48 /* TripleO's.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A291E937AA40034CF48 /* TripleO's.jpg */; };
 		262D5A431E937CF10034CF48 /* recipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D5A421E937CF10034CF48 /* recipeTableViewController.swift */; };
 		262D5A451E937D2B0034CF48 /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D5A441E937D2B0034CF48 /* recipe.swift */; };
-		262D5A5A1E937DE40034CF48 /* recipe1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A471E937DE40034CF48 /* recipe1.pdf */; };
-		262D5A5B1E937DE40034CF48 /* recipe10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A481E937DE40034CF48 /* recipe10.pdf */; };
-		262D5A5C1E937DE40034CF48 /* recipe11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A491E937DE40034CF48 /* recipe11.pdf */; };
-		262D5A5D1E937DE40034CF48 /* recipe12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4A1E937DE40034CF48 /* recipe12.pdf */; };
-		262D5A5E1E937DE40034CF48 /* recipe13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4B1E937DE40034CF48 /* recipe13.pdf */; };
-		262D5A5F1E937DE40034CF48 /* recipe14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4C1E937DE40034CF48 /* recipe14.pdf */; };
-		262D5A601E937DE40034CF48 /* recipe15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4D1E937DE40034CF48 /* recipe15.pdf */; };
-		262D5A611E937DE40034CF48 /* recipe16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4E1E937DE40034CF48 /* recipe16.pdf */; };
-		262D5A621E937DE40034CF48 /* recipe17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A4F1E937DE40034CF48 /* recipe17.pdf */; };
-		262D5A631E937DE40034CF48 /* recipe18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A501E937DE40034CF48 /* recipe18.pdf */; };
-		262D5A641E937DE40034CF48 /* recipe19.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A511E937DE40034CF48 /* recipe19.pdf */; };
-		262D5A651E937DE40034CF48 /* recipe2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A521E937DE40034CF48 /* recipe2.pdf */; };
-		262D5A661E937DE40034CF48 /* recipe3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A531E937DE40034CF48 /* recipe3.pdf */; };
-		262D5A671E937DE40034CF48 /* recipe4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A541E937DE40034CF48 /* recipe4.pdf */; };
-		262D5A681E937DE40034CF48 /* recipe5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A551E937DE40034CF48 /* recipe5.pdf */; };
-		262D5A691E937DE40034CF48 /* recipe6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A561E937DE40034CF48 /* recipe6.pdf */; };
-		262D5A6A1E937DE40034CF48 /* recipe7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A571E937DE40034CF48 /* recipe7.pdf */; };
-		262D5A6B1E937DE40034CF48 /* recipe8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A581E937DE40034CF48 /* recipe8.pdf */; };
-		262D5A6C1E937DE40034CF48 /* recipe9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A591E937DE40034CF48 /* recipe9.pdf */; };
 		262D5A721E937F3F0034CF48 /* recipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D5A711E937F3F0034CF48 /* recipeButton.swift */; };
 		264C779F1E8265050013E86D /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C77981E8265050013E86D /* BEMAnimationManager.m */; };
 		264C77A01E8265050013E86D /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779A1E8265050013E86D /* BEMCheckBox.m */; };
@@ -133,6 +114,54 @@
 		267DEAE31E94476300D677D9 /* image9.png in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAB31E94476300D677D9 /* image9.png */; };
 		267DEAEB1E944DB800D677D9 /* namesRecipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAEA1E944DB800D677D9 /* namesRecipes.csv */; };
 		267DEAED1E94513000D677D9 /* ingredientsofRecipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAEC1E94513000D677D9 /* ingredientsofRecipes.csv */; };
+		267DEB1F1E94567F00D677D9 /* recipe1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAEF1E94567E00D677D9 /* recipe1.pdf */; };
+		267DEB201E94567F00D677D9 /* recipe10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF01E94567E00D677D9 /* recipe10.pdf */; };
+		267DEB211E94567F00D677D9 /* recipe11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF11E94567E00D677D9 /* recipe11.pdf */; };
+		267DEB221E94567F00D677D9 /* recipe12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF21E94567E00D677D9 /* recipe12.pdf */; };
+		267DEB231E94567F00D677D9 /* recipe13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF31E94567E00D677D9 /* recipe13.pdf */; };
+		267DEB241E94567F00D677D9 /* recipe14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF41E94567E00D677D9 /* recipe14.pdf */; };
+		267DEB251E94567F00D677D9 /* recipe15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF51E94567E00D677D9 /* recipe15.pdf */; };
+		267DEB261E94567F00D677D9 /* recipe16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF61E94567E00D677D9 /* recipe16.pdf */; };
+		267DEB271E94567F00D677D9 /* recipe17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF71E94567E00D677D9 /* recipe17.pdf */; };
+		267DEB281E94567F00D677D9 /* recipe18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF81E94567E00D677D9 /* recipe18.pdf */; };
+		267DEB291E94567F00D677D9 /* recipe19.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAF91E94567E00D677D9 /* recipe19.pdf */; };
+		267DEB2A1E94567F00D677D9 /* recipe2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFA1E94567E00D677D9 /* recipe2.pdf */; };
+		267DEB2B1E94567F00D677D9 /* recipe20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFB1E94567E00D677D9 /* recipe20.pdf */; };
+		267DEB2C1E94567F00D677D9 /* recipe21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFC1E94567E00D677D9 /* recipe21.pdf */; };
+		267DEB2D1E94567F00D677D9 /* recipe22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFD1E94567E00D677D9 /* recipe22.pdf */; };
+		267DEB2E1E94567F00D677D9 /* recipe23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFE1E94567E00D677D9 /* recipe23.pdf */; };
+		267DEB2F1E94567F00D677D9 /* recipe24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAFF1E94567E00D677D9 /* recipe24.pdf */; };
+		267DEB301E94567F00D677D9 /* recipe25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB001E94567E00D677D9 /* recipe25.pdf */; };
+		267DEB311E94567F00D677D9 /* recipe26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB011E94567E00D677D9 /* recipe26.pdf */; };
+		267DEB321E94567F00D677D9 /* recipe27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB021E94567E00D677D9 /* recipe27.pdf */; };
+		267DEB331E94567F00D677D9 /* recipe28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB031E94567E00D677D9 /* recipe28.pdf */; };
+		267DEB341E94567F00D677D9 /* recipe29.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB041E94567E00D677D9 /* recipe29.pdf */; };
+		267DEB351E94567F00D677D9 /* recipe3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB051E94567E00D677D9 /* recipe3.pdf */; };
+		267DEB361E94567F00D677D9 /* recipe30.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB061E94567E00D677D9 /* recipe30.pdf */; };
+		267DEB371E94567F00D677D9 /* recipe31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB071E94567E00D677D9 /* recipe31.pdf */; };
+		267DEB381E94567F00D677D9 /* recipe32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB081E94567E00D677D9 /* recipe32.pdf */; };
+		267DEB391E94567F00D677D9 /* recipe33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB091E94567E00D677D9 /* recipe33.pdf */; };
+		267DEB3A1E94567F00D677D9 /* recipe34.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0A1E94567E00D677D9 /* recipe34.pdf */; };
+		267DEB3B1E94567F00D677D9 /* recipe35.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0B1E94567E00D677D9 /* recipe35.pdf */; };
+		267DEB3C1E94567F00D677D9 /* recipe36.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0C1E94567E00D677D9 /* recipe36.pdf */; };
+		267DEB3D1E94567F00D677D9 /* recipe37.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0D1E94567E00D677D9 /* recipe37.pdf */; };
+		267DEB3E1E94567F00D677D9 /* recipe38.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0E1E94567E00D677D9 /* recipe38.pdf */; };
+		267DEB3F1E94567F00D677D9 /* recipe39.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB0F1E94567E00D677D9 /* recipe39.pdf */; };
+		267DEB401E94567F00D677D9 /* recipe4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB101E94567E00D677D9 /* recipe4.pdf */; };
+		267DEB411E94567F00D677D9 /* recipe40.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB111E94567E00D677D9 /* recipe40.pdf */; };
+		267DEB421E94567F00D677D9 /* recipe41.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB121E94567E00D677D9 /* recipe41.pdf */; };
+		267DEB431E94567F00D677D9 /* recipe42.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB131E94567E00D677D9 /* recipe42.pdf */; };
+		267DEB441E94567F00D677D9 /* recipe43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB141E94567F00D677D9 /* recipe43.pdf */; };
+		267DEB451E94567F00D677D9 /* recipe44.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB151E94567F00D677D9 /* recipe44.pdf */; };
+		267DEB461E94567F00D677D9 /* recipe45.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB161E94567F00D677D9 /* recipe45.pdf */; };
+		267DEB471E94567F00D677D9 /* recipe46.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB171E94567F00D677D9 /* recipe46.pdf */; };
+		267DEB481E94567F00D677D9 /* recipe47.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB181E94567F00D677D9 /* recipe47.pdf */; };
+		267DEB491E94567F00D677D9 /* recipe48.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB191E94567F00D677D9 /* recipe48.pdf */; };
+		267DEB4A1E94567F00D677D9 /* recipe5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB1A1E94567F00D677D9 /* recipe5.pdf */; };
+		267DEB4B1E94567F00D677D9 /* recipe6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB1B1E94567F00D677D9 /* recipe6.pdf */; };
+		267DEB4C1E94567F00D677D9 /* recipe7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB1C1E94567F00D677D9 /* recipe7.pdf */; };
+		267DEB4D1E94567F00D677D9 /* recipe8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB1D1E94567F00D677D9 /* recipe8.pdf */; };
+		267DEB4E1E94567F00D677D9 /* recipe9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 267DEB1E1E94567F00D677D9 /* recipe9.pdf */; };
 		2689F07B1E8C75AB007F6553 /* ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F07A1E8C75AB007F6553 /* ingredient.swift */; };
 		269F3FBA1E8CBA7B00037E92 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F3FB91E8CBA7B00037E92 /* webViewController.swift */; };
 		269F3FC01E8CE1D100037E92 /* pictureCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F3FBF1E8CE1D100037E92 /* pictureCellTableViewCell.swift */; };
@@ -197,25 +226,6 @@
 		262D5A291E937AA40034CF48 /* TripleO's.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TripleO's.jpg"; sourceTree = "<group>"; };
 		262D5A421E937CF10034CF48 /* recipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeTableViewController.swift; sourceTree = "<group>"; };
 		262D5A441E937D2B0034CF48 /* recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
-		262D5A471E937DE40034CF48 /* recipe1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe1.pdf; sourceTree = "<group>"; };
-		262D5A481E937DE40034CF48 /* recipe10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe10.pdf; sourceTree = "<group>"; };
-		262D5A491E937DE40034CF48 /* recipe11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe11.pdf; sourceTree = "<group>"; };
-		262D5A4A1E937DE40034CF48 /* recipe12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe12.pdf; sourceTree = "<group>"; };
-		262D5A4B1E937DE40034CF48 /* recipe13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe13.pdf; sourceTree = "<group>"; };
-		262D5A4C1E937DE40034CF48 /* recipe14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe14.pdf; sourceTree = "<group>"; };
-		262D5A4D1E937DE40034CF48 /* recipe15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe15.pdf; sourceTree = "<group>"; };
-		262D5A4E1E937DE40034CF48 /* recipe16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe16.pdf; sourceTree = "<group>"; };
-		262D5A4F1E937DE40034CF48 /* recipe17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe17.pdf; sourceTree = "<group>"; };
-		262D5A501E937DE40034CF48 /* recipe18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe18.pdf; sourceTree = "<group>"; };
-		262D5A511E937DE40034CF48 /* recipe19.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe19.pdf; sourceTree = "<group>"; };
-		262D5A521E937DE40034CF48 /* recipe2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe2.pdf; sourceTree = "<group>"; };
-		262D5A531E937DE40034CF48 /* recipe3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe3.pdf; sourceTree = "<group>"; };
-		262D5A541E937DE40034CF48 /* recipe4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe4.pdf; sourceTree = "<group>"; };
-		262D5A551E937DE40034CF48 /* recipe5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe5.pdf; sourceTree = "<group>"; };
-		262D5A561E937DE40034CF48 /* recipe6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe6.pdf; sourceTree = "<group>"; };
-		262D5A571E937DE40034CF48 /* recipe7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe7.pdf; sourceTree = "<group>"; };
-		262D5A581E937DE40034CF48 /* recipe8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe8.pdf; sourceTree = "<group>"; };
-		262D5A591E937DE40034CF48 /* recipe9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe9.pdf; sourceTree = "<group>"; };
 		262D5A711E937F3F0034CF48 /* recipeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeButton.swift; sourceTree = "<group>"; };
 		264C77951E82640B0013E86D /* CheckMarkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckMarkHeader.h; path = ../CheckMarkHeader.h; sourceTree = "<group>"; };
 		264C77971E8265050013E86D /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
@@ -277,6 +287,54 @@
 		267DEAB31E94476300D677D9 /* image9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image9.png; sourceTree = "<group>"; };
 		267DEAEA1E944DB800D677D9 /* namesRecipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = namesRecipes.csv; sourceTree = "<group>"; };
 		267DEAEC1E94513000D677D9 /* ingredientsofRecipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ingredientsofRecipes.csv; sourceTree = "<group>"; };
+		267DEAEF1E94567E00D677D9 /* recipe1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe1.pdf; sourceTree = "<group>"; };
+		267DEAF01E94567E00D677D9 /* recipe10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe10.pdf; sourceTree = "<group>"; };
+		267DEAF11E94567E00D677D9 /* recipe11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe11.pdf; sourceTree = "<group>"; };
+		267DEAF21E94567E00D677D9 /* recipe12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe12.pdf; sourceTree = "<group>"; };
+		267DEAF31E94567E00D677D9 /* recipe13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe13.pdf; sourceTree = "<group>"; };
+		267DEAF41E94567E00D677D9 /* recipe14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe14.pdf; sourceTree = "<group>"; };
+		267DEAF51E94567E00D677D9 /* recipe15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe15.pdf; sourceTree = "<group>"; };
+		267DEAF61E94567E00D677D9 /* recipe16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe16.pdf; sourceTree = "<group>"; };
+		267DEAF71E94567E00D677D9 /* recipe17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe17.pdf; sourceTree = "<group>"; };
+		267DEAF81E94567E00D677D9 /* recipe18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe18.pdf; sourceTree = "<group>"; };
+		267DEAF91E94567E00D677D9 /* recipe19.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe19.pdf; sourceTree = "<group>"; };
+		267DEAFA1E94567E00D677D9 /* recipe2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe2.pdf; sourceTree = "<group>"; };
+		267DEAFB1E94567E00D677D9 /* recipe20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe20.pdf; sourceTree = "<group>"; };
+		267DEAFC1E94567E00D677D9 /* recipe21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe21.pdf; sourceTree = "<group>"; };
+		267DEAFD1E94567E00D677D9 /* recipe22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe22.pdf; sourceTree = "<group>"; };
+		267DEAFE1E94567E00D677D9 /* recipe23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe23.pdf; sourceTree = "<group>"; };
+		267DEAFF1E94567E00D677D9 /* recipe24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe24.pdf; sourceTree = "<group>"; };
+		267DEB001E94567E00D677D9 /* recipe25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe25.pdf; sourceTree = "<group>"; };
+		267DEB011E94567E00D677D9 /* recipe26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe26.pdf; sourceTree = "<group>"; };
+		267DEB021E94567E00D677D9 /* recipe27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe27.pdf; sourceTree = "<group>"; };
+		267DEB031E94567E00D677D9 /* recipe28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe28.pdf; sourceTree = "<group>"; };
+		267DEB041E94567E00D677D9 /* recipe29.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe29.pdf; sourceTree = "<group>"; };
+		267DEB051E94567E00D677D9 /* recipe3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe3.pdf; sourceTree = "<group>"; };
+		267DEB061E94567E00D677D9 /* recipe30.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe30.pdf; sourceTree = "<group>"; };
+		267DEB071E94567E00D677D9 /* recipe31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe31.pdf; sourceTree = "<group>"; };
+		267DEB081E94567E00D677D9 /* recipe32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe32.pdf; sourceTree = "<group>"; };
+		267DEB091E94567E00D677D9 /* recipe33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe33.pdf; sourceTree = "<group>"; };
+		267DEB0A1E94567E00D677D9 /* recipe34.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe34.pdf; sourceTree = "<group>"; };
+		267DEB0B1E94567E00D677D9 /* recipe35.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe35.pdf; sourceTree = "<group>"; };
+		267DEB0C1E94567E00D677D9 /* recipe36.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe36.pdf; sourceTree = "<group>"; };
+		267DEB0D1E94567E00D677D9 /* recipe37.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe37.pdf; sourceTree = "<group>"; };
+		267DEB0E1E94567E00D677D9 /* recipe38.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe38.pdf; sourceTree = "<group>"; };
+		267DEB0F1E94567E00D677D9 /* recipe39.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe39.pdf; sourceTree = "<group>"; };
+		267DEB101E94567E00D677D9 /* recipe4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe4.pdf; sourceTree = "<group>"; };
+		267DEB111E94567E00D677D9 /* recipe40.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe40.pdf; sourceTree = "<group>"; };
+		267DEB121E94567E00D677D9 /* recipe41.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe41.pdf; sourceTree = "<group>"; };
+		267DEB131E94567E00D677D9 /* recipe42.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe42.pdf; sourceTree = "<group>"; };
+		267DEB141E94567F00D677D9 /* recipe43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe43.pdf; sourceTree = "<group>"; };
+		267DEB151E94567F00D677D9 /* recipe44.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe44.pdf; sourceTree = "<group>"; };
+		267DEB161E94567F00D677D9 /* recipe45.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe45.pdf; sourceTree = "<group>"; };
+		267DEB171E94567F00D677D9 /* recipe46.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe46.pdf; sourceTree = "<group>"; };
+		267DEB181E94567F00D677D9 /* recipe47.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe47.pdf; sourceTree = "<group>"; };
+		267DEB191E94567F00D677D9 /* recipe48.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe48.pdf; sourceTree = "<group>"; };
+		267DEB1A1E94567F00D677D9 /* recipe5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe5.pdf; sourceTree = "<group>"; };
+		267DEB1B1E94567F00D677D9 /* recipe6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe6.pdf; sourceTree = "<group>"; };
+		267DEB1C1E94567F00D677D9 /* recipe7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe7.pdf; sourceTree = "<group>"; };
+		267DEB1D1E94567F00D677D9 /* recipe8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe8.pdf; sourceTree = "<group>"; };
+		267DEB1E1E94567F00D677D9 /* recipe9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe9.pdf; sourceTree = "<group>"; };
 		2689F07A1E8C75AB007F6553 /* ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredient.swift; sourceTree = "<group>"; };
 		269F3FB91E8CBA7B00037E92 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		269F3FBF1E8CE1D100037E92 /* pictureCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pictureCellTableViewCell.swift; sourceTree = "<group>"; };
@@ -329,32 +387,6 @@
 				262D5A291E937AA40034CF48 /* TripleO's.jpg */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		262D5A461E937DE40034CF48 /* recipePDFs */ = {
-			isa = PBXGroup;
-			children = (
-				262D5A471E937DE40034CF48 /* recipe1.pdf */,
-				262D5A481E937DE40034CF48 /* recipe10.pdf */,
-				262D5A491E937DE40034CF48 /* recipe11.pdf */,
-				262D5A4A1E937DE40034CF48 /* recipe12.pdf */,
-				262D5A4B1E937DE40034CF48 /* recipe13.pdf */,
-				262D5A4C1E937DE40034CF48 /* recipe14.pdf */,
-				262D5A4D1E937DE40034CF48 /* recipe15.pdf */,
-				262D5A4E1E937DE40034CF48 /* recipe16.pdf */,
-				262D5A4F1E937DE40034CF48 /* recipe17.pdf */,
-				262D5A501E937DE40034CF48 /* recipe18.pdf */,
-				262D5A511E937DE40034CF48 /* recipe19.pdf */,
-				262D5A521E937DE40034CF48 /* recipe2.pdf */,
-				262D5A531E937DE40034CF48 /* recipe3.pdf */,
-				262D5A541E937DE40034CF48 /* recipe4.pdf */,
-				262D5A551E937DE40034CF48 /* recipe5.pdf */,
-				262D5A561E937DE40034CF48 /* recipe6.pdf */,
-				262D5A571E937DE40034CF48 /* recipe7.pdf */,
-				262D5A581E937DE40034CF48 /* recipe8.pdf */,
-				262D5A591E937DE40034CF48 /* recipe9.pdf */,
-			);
-			path = recipePDFs;
 			sourceTree = "<group>";
 		};
 		264C77961E8265050013E86D /* CheckMarkClasses */ = {
@@ -426,6 +458,62 @@
 				267DEAB31E94476300D677D9 /* image9.png */,
 			);
 			path = recipeImages;
+			sourceTree = "<group>";
+		};
+		267DEAEE1E94567E00D677D9 /* recipePDF */ = {
+			isa = PBXGroup;
+			children = (
+				267DEAEF1E94567E00D677D9 /* recipe1.pdf */,
+				267DEAF01E94567E00D677D9 /* recipe10.pdf */,
+				267DEAF11E94567E00D677D9 /* recipe11.pdf */,
+				267DEAF21E94567E00D677D9 /* recipe12.pdf */,
+				267DEAF31E94567E00D677D9 /* recipe13.pdf */,
+				267DEAF41E94567E00D677D9 /* recipe14.pdf */,
+				267DEAF51E94567E00D677D9 /* recipe15.pdf */,
+				267DEAF61E94567E00D677D9 /* recipe16.pdf */,
+				267DEAF71E94567E00D677D9 /* recipe17.pdf */,
+				267DEAF81E94567E00D677D9 /* recipe18.pdf */,
+				267DEAF91E94567E00D677D9 /* recipe19.pdf */,
+				267DEAFA1E94567E00D677D9 /* recipe2.pdf */,
+				267DEAFB1E94567E00D677D9 /* recipe20.pdf */,
+				267DEAFC1E94567E00D677D9 /* recipe21.pdf */,
+				267DEAFD1E94567E00D677D9 /* recipe22.pdf */,
+				267DEAFE1E94567E00D677D9 /* recipe23.pdf */,
+				267DEAFF1E94567E00D677D9 /* recipe24.pdf */,
+				267DEB001E94567E00D677D9 /* recipe25.pdf */,
+				267DEB011E94567E00D677D9 /* recipe26.pdf */,
+				267DEB021E94567E00D677D9 /* recipe27.pdf */,
+				267DEB031E94567E00D677D9 /* recipe28.pdf */,
+				267DEB041E94567E00D677D9 /* recipe29.pdf */,
+				267DEB051E94567E00D677D9 /* recipe3.pdf */,
+				267DEB061E94567E00D677D9 /* recipe30.pdf */,
+				267DEB071E94567E00D677D9 /* recipe31.pdf */,
+				267DEB081E94567E00D677D9 /* recipe32.pdf */,
+				267DEB091E94567E00D677D9 /* recipe33.pdf */,
+				267DEB0A1E94567E00D677D9 /* recipe34.pdf */,
+				267DEB0B1E94567E00D677D9 /* recipe35.pdf */,
+				267DEB0C1E94567E00D677D9 /* recipe36.pdf */,
+				267DEB0D1E94567E00D677D9 /* recipe37.pdf */,
+				267DEB0E1E94567E00D677D9 /* recipe38.pdf */,
+				267DEB0F1E94567E00D677D9 /* recipe39.pdf */,
+				267DEB101E94567E00D677D9 /* recipe4.pdf */,
+				267DEB111E94567E00D677D9 /* recipe40.pdf */,
+				267DEB121E94567E00D677D9 /* recipe41.pdf */,
+				267DEB131E94567E00D677D9 /* recipe42.pdf */,
+				267DEB141E94567F00D677D9 /* recipe43.pdf */,
+				267DEB151E94567F00D677D9 /* recipe44.pdf */,
+				267DEB161E94567F00D677D9 /* recipe45.pdf */,
+				267DEB171E94567F00D677D9 /* recipe46.pdf */,
+				267DEB181E94567F00D677D9 /* recipe47.pdf */,
+				267DEB191E94567F00D677D9 /* recipe48.pdf */,
+				267DEB1A1E94567F00D677D9 /* recipe5.pdf */,
+				267DEB1B1E94567F00D677D9 /* recipe6.pdf */,
+				267DEB1C1E94567F00D677D9 /* recipe7.pdf */,
+				267DEB1D1E94567F00D677D9 /* recipe8.pdf */,
+				267DEB1E1E94567F00D677D9 /* recipe9.pdf */,
+			);
+			name = recipePDF;
+			path = Images/recipePDF;
 			sourceTree = "<group>";
 		};
 		269F3FC61E8CF09D00037E92 /* csvs */ = {
@@ -525,7 +613,7 @@
 				26BF0FF81E6A03FA0056713E /* Assets.xcassets */,
 				26BF0FFA1E6A03FA0056713E /* LaunchScreen.storyboard */,
 				26BF0FFD1E6A03FA0056713E /* Info.plist */,
-				262D5A461E937DE40034CF48 /* recipePDFs */,
+				267DEAEE1E94567E00D677D9 /* recipePDF */,
 				262D5A131E937AA40034CF48 /* Images */,
 				269F3FC61E8CF09D00037E92 /* csvs */,
 			);
@@ -592,118 +680,147 @@
 			buildActionMask = 2147483647;
 			files = (
 				267DEAB81E94476300D677D9 /* image13.png in Resources */,
-				262D5A661E937DE40034CF48 /* recipe3.pdf in Resources */,
+				267DEB3C1E94567F00D677D9 /* recipe36.pdf in Resources */,
 				267DEAC31E94476300D677D9 /* image23.png in Resources */,
 				262D5A2D1E937AA40034CF48 /* ClubIlia.jpg in Resources */,
 				2629C7E81E78BCF300CE378B /* Starbucks.csv in Resources */,
+				267DEB331E94567F00D677D9 /* recipe28.pdf in Resources */,
+				267DEB2F1E94567F00D677D9 /* recipe24.pdf in Resources */,
 				262D5A331E937AA40034CF48 /* IchibankanExpress.jpg in Resources */,
 				2629C7D01E78BCC600CE378B /* ClubIlia.csv in Resources */,
 				267DEAC41E94476300D677D9 /* image24.png in Resources */,
+				267DEB311E94567F00D677D9 /* recipe26.pdf in Resources */,
 				267DEACF1E94476300D677D9 /* image34.png in Resources */,
 				267DEAC21E94476300D677D9 /* image22.png in Resources */,
 				267DEABC1E94476300D677D9 /* image17.png in Resources */,
+				267DEB291E94567F00D677D9 /* recipe19.pdf in Resources */,
+				267DEB2A1E94567F00D677D9 /* recipe2.pdf in Resources */,
+				267DEB251E94567F00D677D9 /* recipe15.pdf in Resources */,
+				267DEB2C1E94567F00D677D9 /* recipe21.pdf in Resources */,
 				267DEADC1E94476300D677D9 /* image46.png in Resources */,
-				262D5A611E937DE40034CF48 /* recipe16.pdf in Resources */,
 				267DEAEB1E944DB800D677D9 /* namesRecipes.csv in Resources */,
 				262D5A3D1E937AA40034CF48 /* Subway.jpg in Resources */,
 				267DEABE1E94476300D677D9 /* image19.png in Resources */,
 				267DEAE11E94476300D677D9 /* image7.png in Resources */,
 				267DEAE21E94476300D677D9 /* image8.png in Resources */,
 				267DEAED1E94513000D677D9 /* ingredientsofRecipes.csv in Resources */,
+				267DEB271E94567F00D677D9 /* recipe17.pdf in Resources */,
 				267DEAE31E94476300D677D9 /* image9.png in Resources */,
 				267DEAD41E94476300D677D9 /* image39.png in Resources */,
-				262D5A5D1E937DE40034CF48 /* recipe12.pdf in Resources */,
 				26BF0FFC1E6A03FA0056713E /* LaunchScreen.storyboard in Resources */,
 				267DEAD51E94476300D677D9 /* image4.png in Resources */,
 				267DEACE1E94476300D677D9 /* image33.png in Resources */,
-				262D5A5C1E937DE40034CF48 /* recipe11.pdf in Resources */,
 				2629C7F41E78BE2000CE378B /* NaturesGardenSFU.csv in Resources */,
 				262D5A301E937AA40034CF48 /* GuadalupeBurritos.jpg in Resources */,
-				262D5A5E1E937DE40034CF48 /* recipe13.pdf in Resources */,
 				2629C7E41E78BCEB00CE378B /* QuesadaBurritosAndTacos.csv in Resources */,
+				267DEB301E94567F00D677D9 /* recipe25.pdf in Resources */,
+				267DEB2E1E94567F00D677D9 /* recipe23.pdf in Resources */,
+				267DEB451E94567F00D677D9 /* recipe44.pdf in Resources */,
 				262D5A2B1E937AA40034CF48 /* BigSmokeBurger.jpg in Resources */,
+				267DEB211E94567F00D677D9 /* recipe11.pdf in Resources */,
 				267DEAB61E94476300D677D9 /* image11.png in Resources */,
-				262D5A6A1E937DE40034CF48 /* recipe7.pdf in Resources */,
 				2629C7CE1E78BCC200CE378B /* BubbleWorld.csv in Resources */,
 				2629C7E01E78BCE500CE378B /* PlumGardenNoodleHouse.csv in Resources */,
+				267DEB261E94567F00D677D9 /* recipe16.pdf in Resources */,
 				267DEAC51E94476300D677D9 /* image25.png in Resources */,
 				262D5A3A1E937AA40034CF48 /* RenaissanceCoffee.jpg in Resources */,
+				267DEB4E1E94567F00D677D9 /* recipe9.pdf in Resources */,
+				267DEB4B1E94567F00D677D9 /* recipe6.pdf in Resources */,
 				262D5A3B1E937AA40034CF48 /* SpicyStone.jpg in Resources */,
 				267DEABA1E94476300D677D9 /* image15.png in Resources */,
 				262D5A381E937AA40034CF48 /* PokeBar.jpg in Resources */,
-				262D5A6B1E937DE40034CF48 /* recipe8.pdf in Resources */,
+				267DEB381E94567F00D677D9 /* recipe32.pdf in Resources */,
+				267DEB351E94567F00D677D9 /* recipe3.pdf in Resources */,
 				262D5A341E937AA40034CF48 /* JugoJuice.jpg in Resources */,
 				2629C7E61E78BCEF00CE378B /* SpicyStone.csv in Resources */,
 				26BF0FF91E6A03FA0056713E /* Assets.xcassets in Resources */,
-				262D5A5B1E937DE40034CF48 /* recipe10.pdf in Resources */,
-				262D5A671E937DE40034CF48 /* recipe4.pdf in Resources */,
 				2629C7D81E78BCD500CE378B /* HigherGroundsCoffeeShop.csv in Resources */,
 				262D5A361E937AA40034CF48 /* PizzaHut.jpg in Resources */,
 				262D5A2E1E937AA40034CF48 /* DonairTown.jpg in Resources */,
 				2629C7CC1E78BCBD00CE378B /* BigSmokeBurgers.csv in Resources */,
+				267DEB2D1E94567F00D677D9 /* recipe22.pdf in Resources */,
 				267DEAC71E94476300D677D9 /* image27.png in Resources */,
 				262D5A311E937AA40034CF48 /* HigherGrounds.jpg in Resources */,
 				267DEABD1E94476300D677D9 /* image18.png in Resources */,
+				267DEB1F1E94567F00D677D9 /* recipe1.pdf in Resources */,
+				267DEB421E94567F00D677D9 /* recipe41.pdf in Resources */,
+				267DEB281E94567F00D677D9 /* recipe18.pdf in Resources */,
+				267DEB471E94567F00D677D9 /* recipe46.pdf in Resources */,
 				267DEADE1E94476300D677D9 /* image48.png in Resources */,
+				267DEB4D1E94567F00D677D9 /* recipe8.pdf in Resources */,
 				2629C7EE1E78BCFF00CE378B /* TripleO's.csv in Resources */,
 				267DEAD81E94476300D677D9 /* image42.png in Resources */,
-				262D5A681E937DE40034CF48 /* recipe5.pdf in Resources */,
+				267DEB241E94567F00D677D9 /* recipe14.pdf in Resources */,
 				262D5A2C1E937AA40034CF48 /* BubbleWorld.jpg in Resources */,
+				267DEB4A1E94567F00D677D9 /* recipe5.pdf in Resources */,
 				2629C7D61E78BCD100CE378B /* GuadalupeHandmadeBurritos.csv in Resources */,
-				262D5A5F1E937DE40034CF48 /* recipe14.pdf in Resources */,
 				2629C7EA1E78BCF600CE378B /* Subway.csv in Resources */,
 				2629C7F01E78BDBD00CE378B /* JugoJuice.csv in Resources */,
+				267DEB3E1E94567F00D677D9 /* recipe38.pdf in Resources */,
 				2629C7EC1E78BCFA00CE378B /* TimHortons.csv in Resources */,
 				267DEAB41E94476300D677D9 /* image1.png in Resources */,
 				267DEAD31E94476300D677D9 /* image38.png in Resources */,
 				267DEAB71E94476300D677D9 /* image12.png in Resources */,
 				2629C7DA1E78BCDA00CE378B /* HighlandsPub.csv in Resources */,
+				267DEB221E94567F00D677D9 /* recipe12.pdf in Resources */,
 				267DEADB1E94476300D677D9 /* image45.png in Resources */,
-				262D5A621E937DE40034CF48 /* recipe17.pdf in Resources */,
 				262D5A321E937AA40034CF48 /* HighlandPub.jpg in Resources */,
+				267DEB481E94567F00D677D9 /* recipe47.pdf in Resources */,
 				267DEAC01E94476300D677D9 /* image20.png in Resources */,
 				267DEADA1E94476300D677D9 /* image44.png in Resources */,
 				2629C7E21E78BCE800CE378B /* PokeBar.csv in Resources */,
 				267DEAC81E94476300D677D9 /* image28.png in Resources */,
 				267DEADD1E94476300D677D9 /* image47.png in Resources */,
+				267DEB391E94567F00D677D9 /* recipe33.pdf in Resources */,
 				262D5A3C1E937AA40034CF48 /* Starbucks.jpg in Resources */,
+				267DEB3F1E94567F00D677D9 /* recipe39.pdf in Resources */,
 				267DEAC91E94476300D677D9 /* image29.png in Resources */,
+				267DEB3D1E94567F00D677D9 /* recipe37.pdf in Resources */,
 				267DEAB51E94476300D677D9 /* image10.png in Resources */,
+				267DEB441E94567F00D677D9 /* recipe43.pdf in Resources */,
 				267DEACD1E94476300D677D9 /* image32.png in Resources */,
+				267DEB491E94567F00D677D9 /* recipe48.pdf in Resources */,
+				267DEB401E94567F00D677D9 /* recipe4.pdf in Resources */,
+				267DEB231E94567F00D677D9 /* recipe13.pdf in Resources */,
+				267DEB371E94567F00D677D9 /* recipe31.pdf in Resources */,
 				267DEAD71E94476300D677D9 /* image41.png in Resources */,
-				262D5A631E937DE40034CF48 /* recipe18.pdf in Resources */,
 				267DEAD11E94476300D677D9 /* image36.png in Resources */,
 				267DEACC1E94476300D677D9 /* image31.png in Resources */,
-				262D5A6C1E937DE40034CF48 /* recipe9.pdf in Resources */,
 				267DEAB91E94476300D677D9 /* image14.png in Resources */,
 				267DEAC11E94476300D677D9 /* image21.png in Resources */,
+				267DEB201E94567F00D677D9 /* recipe10.pdf in Resources */,
 				267DEAC61E94476300D677D9 /* image26.png in Resources */,
 				267DEABB1E94476300D677D9 /* image16.png in Resources */,
+				267DEB2B1E94567F00D677D9 /* recipe20.pdf in Resources */,
 				2629C7D21E78BCCA00CE378B /* DonairTown.csv in Resources */,
 				262D5A3E1E937AA40034CF48 /* TimHortons.jpg in Resources */,
+				267DEB3B1E94567F00D677D9 /* recipe35.pdf in Resources */,
 				267DEACB1E94476300D677D9 /* image30.png in Resources */,
-				262D5A691E937DE40034CF48 /* recipe6.pdf in Resources */,
-				262D5A601E937DE40034CF48 /* recipe15.pdf in Resources */,
-				262D5A641E937DE40034CF48 /* recipe19.pdf in Resources */,
 				267DEACA1E94476300D677D9 /* image3.png in Resources */,
+				267DEB361E94567F00D677D9 /* recipe30.pdf in Resources */,
 				2629C7DC1E78BCDD00CE378B /* IchibankanExpress.csv in Resources */,
 				267DEABF1E94476300D677D9 /* image2.png in Resources */,
 				267DEAD01E94476300D677D9 /* image35.png in Resources */,
-				262D5A5A1E937DE40034CF48 /* recipe1.pdf in Resources */,
+				267DEB411E94567F00D677D9 /* recipe40.pdf in Resources */,
+				267DEB321E94567F00D677D9 /* recipe27.pdf in Resources */,
 				262D5A3F1E937AA40034CF48 /* TripleO's.jpg in Resources */,
 				2629C7F21E78BDD800CE378B /* RenaissanceCoffee.csv in Resources */,
+				267DEB341E94567F00D677D9 /* recipe29.pdf in Resources */,
 				262D5A2A1E937AA40034CF48 /* BambooGarden.jpg in Resources */,
 				267DEAD91E94476300D677D9 /* image43.png in Resources */,
 				267DEAD21E94476300D677D9 /* image37.png in Resources */,
 				267DEAE01E94476300D677D9 /* image6.png in Resources */,
 				267DEADF1E94476300D677D9 /* image5.png in Resources */,
 				267DEAD61E94476300D677D9 /* image40.png in Resources */,
+				267DEB431E94567F00D677D9 /* recipe42.pdf in Resources */,
 				26BF0FF71E6A03FA0056713E /* Main.storyboard in Resources */,
+				267DEB461E94567F00D677D9 /* recipe45.pdf in Resources */,
 				262D5A351E937AA40034CF48 /* NaturesGarden.jpg in Resources */,
 				2629C7D41E78BCCD00CE378B /* GawonKorean.csv in Resources */,
 				262D5A371E937AA40034CF48 /* PlumGarden.jpg in Resources */,
+				267DEB4C1E94567F00D677D9 /* recipe7.pdf in Resources */,
 				2629C7CA1E78BCB700CE378B /* BambooGarden.csv in Resources */,
-				262D5A651E937DE40034CF48 /* recipe2.pdf in Resources */,
+				267DEB3A1E94567F00D677D9 /* recipe34.pdf in Resources */,
 				262D5A2F1E937AA40034CF48 /* GawonKorean.jpg in Resources */,
 				262D5A391E937AA40034CF48 /* Quesada.jpg in Resources */,
 				2629C7DE1E78BCE200CE378B /* PizzaHut.csv in Resources */,

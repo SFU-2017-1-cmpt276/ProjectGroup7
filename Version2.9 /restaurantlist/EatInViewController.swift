@@ -80,7 +80,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         
         for recipe in recipes{
             if ingredients.count != 0{
-                recipe.accuracy = (recipe.Count/Double(ingredients.count))*100
+                recipe.accuracy = Double((recipe.Count/Double(ingredients.count))*100)
             }
             recipe.Count = 0
         }
@@ -232,6 +232,17 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
             alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
             present(alertController, animated: true, completion: nil)
             
+            
+        }
+            
+            
+        else if(recipes.count == 0){
+            
+            let alertController = UIAlertController(title: "Error", message:
+                "No recipes matched your search", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
+            present(alertController, animated: true, completion: nil)
+
             
         }
             //allow segue to recipe page if ingredients meet requirements
