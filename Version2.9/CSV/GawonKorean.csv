@@ -1,0 +1,22 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+Beef Rice,431,10.9,34.5,33.5,507,No,No,Yes,No,No,No,No,No,No,No
+Spicy Pork Rice,444,10.3,34.2,33.1,524,No,No,Yes,No,No,No,No,No,No,No
+Spicy Chicken Rice,447,11.3,35.6,35.3,474,No,No,Yes,No,No,No,No,No,No,No
+Bibim-bap,560,15,18,37.1,564,No,No,No,No,No,No,No,No,No,No
+Veggie Bibim-bap,530,12.6,14.3,34.8,512,Yes,Yes,No,No,No,No,No,No,No,No
+Vege Beef Rice,451,11.2,39.2,38.7,508,No,No,Yes,No,No,No,No,No,No,No
+Vege Spicy Pork Rice,468,11.9,40.4,36.4,548,No,No,Yes,No,No,No,No,No,No,No
+Vege Spicy Chicken Rice ,458,12.6,41.6,35.8,526,No,No,Yes,No,No,No,No,No,No,No
+Chicken Mayo,558,14.7,36.9,37.1,592,No,No,No,No,No,No,No,No,No,No
+Soon-dubu Seafood Soup,223,15,16,11,641,No,Yes,No,No,No,No,Yes,Yes,No,No
+Vegetable Ramen,312,13.1,13.9,33.4,816.3,Yes,Yes,No,No,No,No,No,No,Yes,No
+Beef Ramen,290,12,6,38,1190,No,No,No,No,No,No,No,No,Yes,No
+Vegetable Udon,300,4,7,55,1120,Yes,Yes,No,No,No,No,No,No,Yes,No
+Beef Udon,327,4.6,27.2,46.8,1273,No,No,No,No,No,No,No,No,Yes,No
+Beef / Spicy Pork Noodle,324,7.4,19.8,36.7,1259,No,No,No,No,No,No,No,No,Yes,No
+Spicy Chicken Noodle,386,8.6,18.7,35.1,1277,No,No,No,No,No,No,No,No,Yes,No
+Bibim Noodle ,414,12.2,13,64.9,554,No,No,No,No,No,No,No,No,Yes,No
+Veggie Bibim Noodle,483,12.8,13.3,63.5,474,Yes,Yes,No,No,No,No,No,No,Yes,No
+DDUK-bok-ki (Spicy Rice Cake),564.2,2.7,6.1,28.2,680,Yes,Yes,No,No,No,No,No,No,Yes,No
+Mandu (Korean Dumpling),355,6.8,24.2,47.3,481,No,No,No,No,No,No,No,No,Yes,No
+Pumpkin Croquette,243,14.4,4.2,24.3,234,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No

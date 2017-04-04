@@ -1,0 +1,47 @@
+Item,Calories,Fats,Protein,Carbs,Sodium,Vegan,Vegetarian,Egg,Milk,Peanut,Treenut,Fish,ShellFish,Wheat,Soy
+Japchae cali with Miso,348,5,6,43,1423,Yes,Yes,No,No,No,No,No,No,No,Yes
+Kimbob Classic with Miso,374,17.5,19.5,36,1670.5,No,Yes,Yes,No,No,No,No,No,No,Yes
+Cali Classic with Miso,461,18,22,51,1867,No,No,No,No,No,No,No,Yes,No,Yes
+Dyna Classic with Miso,607,23,31,69,2363,No,No,No,No,No,No,Yes,Yes,Yes,Yes
+Cali Dynasty with Miso,552,25,20,57,1403,No,No,No,No,No,No,Yes,Yes,Yes,Yes
+Cali & Dynamite with Miso,357,8,20,51,1607,No,No,No,No,No,No,Yes,Yes,Yes,Yes
+Cali & Udon Combo,399,5,14,76,1714,No,No,No,No,No,No,Yes,Yes,No,Yes
+1/2 Kimbob & Udon,409,6,14,79,1674,No,Yes,No,No,No,No,No,No,No,Yes
+3pcs Gyoza & Udon,464,16,18,64,2030,No,No,No,No,No,No,No,No,Yes,Yes
+Tempura & Udon,667,25,19,91,1743,No,No,No,No,No,No,No,No,No,Yes
+Ramen,778,18,22,116,1750,No,No,No,No,No,No,No,No,Yes,Yes
+Beef Ramen,792,14,36,115,1772,No,No,No,No,No,No,No,No,Yes,Yes
+Chicken Ramen,786,9,50,121,1800,No,No,No,No,No,No,No,No,Yes,Yes
+Kochi Ramen,752,9,25,120,1740,No,No,No,No,No,No,No,No,Yes,Yes
+Pork Shabu,762,17,22,128,1824,No,No,No,No,No,No,No,No,Yes,Yes
+1/2 Kimbob ,122,3,3,24,167,No,Yes,No,No,No,No,No,No,No,No
+Full Kimbob,274,7,7,54,375,No,Yes,No,No,No,No,No,No,No,No
+Kochi Udon,426,4,15,82,2600,No,Yes,No,No,No,No,No,No,No,Yes
+Beef Udon,580,27,34,72,3370,No,No,No,No,No,No,No,No,No,Yes
+Chicken Udon,550,13,36,72,3220,No,No,No,No,No,No,No,No,No,Yes
+Spicy Chicken Udon,600,13,36,72,3476,No,No,No,No,No,No,No,No,No,Yes
+Beef Gooksoo,1480,16,48,320,3680,No,No,No,No,No,No,No,No,Yes,Yes
+Chicken Gooksoo,1460,10,48,320,3650,No,No,No,No,No,No,No,No,Yes,Yes
+Spicy Chicken Gooksoo,1520,12,48,320,3760,No,No,No,No,No,No,No,No,Yes,Yes
+Kimchi Tofu Gooksoo,1375,8,20,365,2875,No,Yes,No,No,No,No,No,No,Yes,Yes
+Japchae ,225,5,2,43,730,No,Yes,No,No,No,No,No,No,No,Yes
+Prawn & Yam Tempura,380,22,8,36,836,No,No,No,No,No,No,No,Yes,No,No
+Pork Gyoza,354,26,13,17,846,No,No,No,No,No,No,No,No,Yes,Yes
+Veggie Gyoza,260,10,8,36,540,No,Yes,No,No,No,No,No,No,Yes,Yes
+Veggie Bibimbob,530,13,12,89,1264,No,Yes,No,No,No,No,No,No,No,Yes
+Beef Bibimbob,571,16,28,98,1564,No,No,No,No,No,No,No,No,No,Yes
+Chicken Bibimbob,557,15,20,89,1564,No,No,No,No,No,No,No,No,No,Yes
+Beef Bento,550,8,16,60,1594,No,No,No,No,No,No,No,No,No,Yes
+Chicken Bento,520,6,14,45,1594,No,No,No,No,No,No,No,No,No,Yes
+Spicy Chicken Bento,550,10,14,52,1620,No,No,No,No,No,No,No,No,No,Yes
+Chicken Karage Bento,651,19,16,81,1605,No,No,No,No,No,No,No,No,Yes,Yes
+Tempura Bento,760,26,16,112,1610,No,No,No,No,No,No,No,No,No,Yes
+Beef rice bowl,555,14,36,70,1539,No,No,No,No,No,No,No,No,No,Yes
+Chicken rice bowl,422,9,27,62,1490,No,No,No,No,No,No,No,No,No,Yes
+Spicy Chicken Rice Bowl,498,11,27,65,1502,No,No,No,No,No,No,No,No,No,Yes
+Kimchi Rice Bowl,375,6,7,40,1475,Yes,Yes,No,No,No,No,No,No,No,Yes
+Kimchi Tofu Rice Bowl,410,9,14,46,1520,Yes,Yes,No,No,No,No,No,No,No,Yes
+Crispy Pork Rice Bowl,692,24,37,81,1628,No,No,No,No,No,No,No,No,Yes,Yes
+Crispy Chicken Rice Bowl,621,19,32,72,1605,No,No,No,No,No,No,No,No,Yes,Yes
+Spicy Pork Rice Bowl,636,21,35,68,1630,No,No,No,No,No,No,No,No,No,Yes
+Sashimi Rice Bowl,445,9,28,70,1280,No,No,No,No,No,No,Yes,No,No,Yes
