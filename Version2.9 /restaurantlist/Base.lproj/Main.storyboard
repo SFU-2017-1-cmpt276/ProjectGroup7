@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -104,26 +105,28 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="154"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" tableViewCell="HIc-OJ-1Hx" id="JM9-iu-oQO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="153.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="154"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lg6-yc-GKw">
-                                            <rect key="frame" x="0.0" y="-27" width="375" height="200"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lg6-yc-GKw">
+                                            <rect key="frame" x="0.0" y="-11" width="375" height="138"/>
                                             <color key="tintColor" red="0.42504379357991939" green="0.71849164330119986" blue="0.78200348984771573" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPb-2Y-M7B">
-                                            <rect key="frame" x="0.0" y="129" width="296" height="24"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPb-2Y-M7B">
+                                            <rect key="frame" x="0.0" y="135" width="289" height="24"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="hPb-2Y-M7B" secondAttribute="height" multiplier="305:24" id="Bnd-PA-Ws4"/>
+                                                <constraint firstAttribute="height" constant="24" id="cg1-cp-kX1"/>
+                                                <constraint firstAttribute="width" constant="305" id="sOy-dJ-lEi"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="DIN-Regular" family="DIN" pointSize="15"/>
                                             <color key="textColor" red="0.41817326570000002" green="0.41817326570000002" blue="0.41817326570000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="......" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWl-6a-rze">
-                                            <rect key="frame" x="294" y="129" width="81" height="24"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="......" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWl-6a-rze">
+                                            <rect key="frame" x="262" y="130" width="113" height="29"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="fontDescription" name="DIN-Regular" family="DIN" pointSize="15"/>
@@ -131,6 +134,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Lg6-yc-GKw" secondAttribute="trailing" id="5Sh-Ng-gSz"/>
+                                        <constraint firstItem="Lg6-yc-GKw" firstAttribute="trailing" secondItem="KWl-6a-rze" secondAttribute="trailing" id="8nK-sc-pci"/>
+                                        <constraint firstItem="Lg6-yc-GKw" firstAttribute="leading" secondItem="hPb-2Y-M7B" secondAttribute="leading" id="8oZ-L6-0Rj"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Lg6-yc-GKw" secondAttribute="bottom" constant="-27.5" id="Bam-U5-eTK"/>
+                                        <constraint firstItem="Lg6-yc-GKw" firstAttribute="leading" secondItem="JM9-iu-oQO" secondAttribute="leading" id="oKt-On-yHq"/>
+                                        <constraint firstItem="Lg6-yc-GKw" firstAttribute="top" secondItem="JM9-iu-oQO" secondAttribute="topMargin" constant="-35" id="uFS-ZM-gVg"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="distance" destination="KWl-6a-rze" id="DSU-pr-vkv"/>
@@ -626,7 +637,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recipe" rowHeight="198" id="qKI-jm-bvF" customClass="recipeButton" customModule="restaurantlist" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recipe" rowHeight="198" id="qKI-jm-bvF" customClass="recipeTableViewCell" customModule="restaurantlist" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="198"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qKI-jm-bvF" id="aCT-0K-VRo" customClass="recipeButton" customModule="restaurantlist" customModuleProvider="target">
@@ -634,7 +645,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xZR-5X-1S4">
-                                            <rect key="frame" x="0.0" y="-28" width="367" height="226"/>
+                                            <rect key="frame" x="0.0" y="8" width="375" height="190"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-Qc-fkJ">
@@ -645,7 +656,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEU-qC-mih">
-                                            <rect key="frame" x="265" y="41" width="79" height="47"/>
+                                            <rect key="frame" x="251" y="41" width="116" height="47"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <nil key="textColor"/>
@@ -654,8 +665,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="recipeImage" destination="xZR-5X-1S4" id="zK2-li-cpz"/>
-                                    <outlet property="recipeName" destination="fdy-Qc-fkJ" id="yXW-ey-hcI"/>
+                                    <outlet property="accuracy" destination="nEU-qC-mih" id="z16-Xs-IUC"/>
+                                    <outlet property="recipeImage" destination="xZR-5X-1S4" id="LEq-kc-Iab"/>
+                                    <outlet property="recipeName" destination="fdy-Qc-fkJ" id="anm-TA-TEg"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

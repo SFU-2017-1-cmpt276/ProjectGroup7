@@ -14,13 +14,15 @@ class recipe: NSObject {
     var Name: String = ""
     var ID: Double = 0
     var Count: Double = 0
+    var accuracy: Double = 0
     
     
-    init(Name: String, ID: Double,Count: Double ){
+    init(Name: String, ID: Double,Count: Double, accuracy: Double ){
         
         self.Name = Name
         self.ID = ID
         self.Count = Count
+        self.accuracy = accuracy
         
     }
     
@@ -28,6 +30,7 @@ class recipe: NSObject {
         self.Name = ""
         self.ID = 0
         self.Count = 0
+        self.accuracy = 0
         
         
         

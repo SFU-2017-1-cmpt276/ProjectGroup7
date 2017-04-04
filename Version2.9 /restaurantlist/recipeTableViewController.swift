@@ -50,9 +50,13 @@ class recipeTableViewController: UITableViewController {
         performSegue(withIdentifier: "pdfView", sender: nil)
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> recipeButton {
-        let cell = recipeTable.dequeueReusableCell(withIdentifier: "recipe", for: indexPath) as! recipeButton
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> recipeTableViewCell {
+        let cell = recipeTable.dequeueReusableCell(withIdentifier: "recipe", for: indexPath) as! recipeTableViewCell
         cell.recipeName.text = data[indexPath.row].Name
+        var imageName = "image" + String(Int(data[indexPath.row].ID))
+        print(imageName)
+        cell.recipeImage.image = UIImage(named: imageName)
+        cell.accuracy.text = String(data[indexPath.row].accuracy) + "% MATCH"
         return cell
     }
     

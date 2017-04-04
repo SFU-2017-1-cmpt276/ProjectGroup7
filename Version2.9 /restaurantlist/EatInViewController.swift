@@ -35,7 +35,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        recipeIDs = parseCSVRecipes(name: "recipeNames")
+        recipeIDs = parseCSVRecipes(name: "namesRecipes")
         
         // Setting up variables and delegating control and datasource to collectionView
         collectionView!.dataSource = self
@@ -71,11 +71,20 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         for recipe in recipeIDs{
             if recipe.Count != 0{
                 recipes.insert(recipe, at: 0)
-                recipe.Count = 0
+                
             }
             
         }
         
+        recipes = recipes.sorted(by: {$0.Count > $1.Count})
+        
+        for recipe in recipes{
+            if ingredients.count != 0{
+                recipe.accuracy = Double((recipe.Count/Double(ingredients.count))*100)
+            }
+            recipe.Count = 0
+        }
+    
         return recipes
     }
     
@@ -138,7 +147,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
                 let ID = Double(row["ID"]!)
                 let Count = 0
                 
-                let iItemToAdd = recipe(Name: name, ID: ID!, Count: Double(Count))
+                let iItemToAdd = recipe(Name: name, ID: ID!, Count: Double(Count), accuracy: 0)
                 
                 ret.insert(iItemToAdd, at: index)
                 index = index + 1
@@ -209,9 +218,9 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     @IBAction func RecipeSearch(_ sender: Any) {
         
         //create pop-up alert for >5 ingredients
-        if ingredients.count < 5 {
+        if ingredients.count < 1 {
             let alertController = UIAlertController(title: "Error", message:
-                "A minimum of 5 ingredients are required for recipe search", preferredStyle: UIAlertControllerStyle.alert)
+                "A minimum of 1 ingredient is required for recipe search", preferredStyle: UIAlertControllerStyle.alert)
             alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
             present(alertController, animated: true, completion: nil)
             
