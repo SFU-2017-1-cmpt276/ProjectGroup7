@@ -47,7 +47,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         
         
         // Do any additional setup after loading the view, typically from a nib.
-        searchArray = parseCSVIngredients(name: "recipeIngredients")
+        searchArray = parseCSVIngredients(name: "ingredientsofRecipes")
         
         
         //print the search array loaded from the csv
@@ -80,7 +80,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         
         for recipe in recipes{
             if ingredients.count != 0{
-                recipe.accuracy = Double((recipe.Count/Double(ingredients.count))*100)
+                recipe.accuracy = (recipe.Count/Double(ingredients.count))*100
             }
             recipe.Count = 0
         }

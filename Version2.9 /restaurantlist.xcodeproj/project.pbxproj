@@ -78,7 +78,6 @@
 		262D5A6B1E937DE40034CF48 /* recipe8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A581E937DE40034CF48 /* recipe8.pdf */; };
 		262D5A6C1E937DE40034CF48 /* recipe9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A591E937DE40034CF48 /* recipe9.pdf */; };
 		262D5A721E937F3F0034CF48 /* recipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D5A711E937F3F0034CF48 /* recipeButton.swift */; };
-		262D5A741E9380980034CF48 /* recipeIngredients.csv in Resources */ = {isa = PBXBuildFile; fileRef = 262D5A731E9380980034CF48 /* recipeIngredients.csv */; };
 		264C779F1E8265050013E86D /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C77981E8265050013E86D /* BEMAnimationManager.m */; };
 		264C77A01E8265050013E86D /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779A1E8265050013E86D /* BEMCheckBox.m */; };
 		264C77A11E8265050013E86D /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C779C1E8265050013E86D /* BEMCheckBoxGroup.m */; };
@@ -133,6 +132,7 @@
 		267DEAE21E94476300D677D9 /* image8.png in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAB21E94476300D677D9 /* image8.png */; };
 		267DEAE31E94476300D677D9 /* image9.png in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAB31E94476300D677D9 /* image9.png */; };
 		267DEAEB1E944DB800D677D9 /* namesRecipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAEA1E944DB800D677D9 /* namesRecipes.csv */; };
+		267DEAED1E94513000D677D9 /* ingredientsofRecipes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 267DEAEC1E94513000D677D9 /* ingredientsofRecipes.csv */; };
 		2689F07B1E8C75AB007F6553 /* ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F07A1E8C75AB007F6553 /* ingredient.swift */; };
 		269F3FBA1E8CBA7B00037E92 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F3FB91E8CBA7B00037E92 /* webViewController.swift */; };
 		269F3FC01E8CE1D100037E92 /* pictureCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F3FBF1E8CE1D100037E92 /* pictureCellTableViewCell.swift */; };
@@ -217,7 +217,6 @@
 		262D5A581E937DE40034CF48 /* recipe8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe8.pdf; sourceTree = "<group>"; };
 		262D5A591E937DE40034CF48 /* recipe9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = recipe9.pdf; sourceTree = "<group>"; };
 		262D5A711E937F3F0034CF48 /* recipeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeButton.swift; sourceTree = "<group>"; };
-		262D5A731E9380980034CF48 /* recipeIngredients.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recipeIngredients.csv; sourceTree = "<group>"; };
 		264C77951E82640B0013E86D /* CheckMarkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckMarkHeader.h; path = ../CheckMarkHeader.h; sourceTree = "<group>"; };
 		264C77971E8265050013E86D /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
 		264C77981E8265050013E86D /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
@@ -277,6 +276,7 @@
 		267DEAB21E94476300D677D9 /* image8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image8.png; sourceTree = "<group>"; };
 		267DEAB31E94476300D677D9 /* image9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image9.png; sourceTree = "<group>"; };
 		267DEAEA1E944DB800D677D9 /* namesRecipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = namesRecipes.csv; sourceTree = "<group>"; };
+		267DEAEC1E94513000D677D9 /* ingredientsofRecipes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ingredientsofRecipes.csv; sourceTree = "<group>"; };
 		2689F07A1E8C75AB007F6553 /* ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredient.swift; sourceTree = "<group>"; };
 		269F3FB91E8CBA7B00037E92 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		269F3FBF1E8CE1D100037E92 /* pictureCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pictureCellTableViewCell.swift; sourceTree = "<group>"; };
@@ -431,8 +431,8 @@
 		269F3FC61E8CF09D00037E92 /* csvs */ = {
 			isa = PBXGroup;
 			children = (
+				267DEAEC1E94513000D677D9 /* ingredientsofRecipes.csv */,
 				267DEAEA1E944DB800D677D9 /* namesRecipes.csv */,
-				262D5A731E9380980034CF48 /* recipeIngredients.csv */,
 				2629C7CB1E78BCBD00CE378B /* BigSmokeBurgers.csv */,
 				2629C7C91E78BCB700CE378B /* BambooGarden.csv */,
 				2629C7CD1E78BCC200CE378B /* BubbleWorld.csv */,
@@ -609,6 +609,7 @@
 				267DEABE1E94476300D677D9 /* image19.png in Resources */,
 				267DEAE11E94476300D677D9 /* image7.png in Resources */,
 				267DEAE21E94476300D677D9 /* image8.png in Resources */,
+				267DEAED1E94513000D677D9 /* ingredientsofRecipes.csv in Resources */,
 				267DEAE31E94476300D677D9 /* image9.png in Resources */,
 				267DEAD41E94476300D677D9 /* image39.png in Resources */,
 				262D5A5D1E937DE40034CF48 /* recipe12.pdf in Resources */,
@@ -631,7 +632,6 @@
 				267DEABA1E94476300D677D9 /* image15.png in Resources */,
 				262D5A381E937AA40034CF48 /* PokeBar.jpg in Resources */,
 				262D5A6B1E937DE40034CF48 /* recipe8.pdf in Resources */,
-				262D5A741E9380980034CF48 /* recipeIngredients.csv in Resources */,
 				262D5A341E937AA40034CF48 /* JugoJuice.jpg in Resources */,
 				2629C7E61E78BCEF00CE378B /* SpicyStone.csv in Resources */,
 				26BF0FF91E6A03FA0056713E /* Assets.xcassets in Resources */,
