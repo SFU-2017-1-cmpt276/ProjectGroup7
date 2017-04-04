@@ -81,7 +81,7 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         
         self.data = self.data.sorted(by: {$0.Calories < $1.Calories})
 
-        pickerNames = ["Low Calories", "Low Carb", "Low Fat","Low Sodium","High Protein"]
+        pickerNames = ["Low Calories", "Low Carb", "Low Fat","Low Sodium","High Protein","None"]
         pickerView.delegate = self
         pickerView.dataSource = self
         
@@ -846,9 +846,12 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
                 self.data =  self.data.sorted(by: {$0.Protein > $1.Protein})
             }
             
+            if row == 5{
+                self.data = self.data.sorted( by: {$0.Name < $1.Name})
+            }
+            
             itemTable.reloadData()
         }
-
 }
 
 }
