@@ -64,8 +64,8 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     //  * checks to see if the user input ingredients matches any recipe ingredients and              //
     //    returns the recipe ID                                                                       //
     //  * If none of the inputs match the the first recipe is returned                                //
-    //  * The strings still need to be divided into words so that if the user inputs cheddar for        //
-    //    instance and the recipe states: "cheddar cheese", its still a match                  //
+    //  * The strings still need to be divided into words so that if the user inputs cheddar for      //
+    //    instance and the recipe states: "cheddar cheese", its still a match                         //
     /**************************************************************************************************/
     
     func search_for_ingredient() -> [recipe]{
