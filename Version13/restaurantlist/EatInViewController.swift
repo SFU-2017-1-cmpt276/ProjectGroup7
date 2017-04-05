@@ -365,7 +365,7 @@ class IngredientCell : BaseCell {
         
         //set up constraints for layout of ingredient cell with label and close image
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[v0][v1(10)]-50-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel, "v1": deleteImage]))
-        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[v0]-8-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel]))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-7-[v0]-7-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": ingredientLabel]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-10-[v0]-10-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": deleteImage]))
     }
     
