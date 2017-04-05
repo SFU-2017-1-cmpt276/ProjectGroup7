@@ -30,6 +30,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     var recipeIDs: [recipe] = []
     var  searchArray: [ingredient] = []
     var recipes: [recipe] = []
+    var loadFlag = 0
     
     
     override func viewDidLoad() {
@@ -69,6 +70,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
             }
         }
         for recipe in recipeIDs{
+            print(recipe.Count)
             if recipe.Count != 0{
                 recipes.insert(recipe, at: 0)
                 
@@ -79,12 +81,13 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         recipes = recipes.sorted(by: {$0.Count > $1.Count})
         
         for recipe in recipes{
+            recipe.accuracy = 0
             if ingredients.count != 0{
-                recipe.accuracy = Double((recipe.Count/Double(ingredients.count))*100)
+                recipe.accuracy = (recipe.Count/Double(ingredients.count))*100
             }
             recipe.Count = 0
         }
-    
+        loadFlag = 1
         return recipes
     }
     
@@ -232,25 +235,6 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
             alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
             present(alertController, animated: true, completion: nil)
             
-            
-        }
-            
-            
-        else if(recipes.count == 0){
-            
-            let alertController = UIAlertController(title: "Error", message:
-                "No recipes matched your search", preferredStyle: UIAlertControllerStyle.alert)
-            alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
-            present(alertController, animated: true, completion: nil)
-
-            
-        }
-            //allow segue to recipe page if ingredients meet requirements
-        else {
-            
-            /* let recipeNumber*/
-            //search_for_ingredient(array: ingredients)
-            // performSegue(withIdentifier: "recipeList", sender: nil)
         }
     }
 }
@@ -298,9 +282,18 @@ class Header : BaseCell {
     }
     
     //function to determine if user input contains digits
+    //function to determine if user input contains digits
     func isalpha(word: String) -> Bool {
         let digit = CharacterSet.decimalDigits
-        var flag = false
+        let alpha = CharacterSet.alphanumerics
+        var flag = true
+        for uni in word.unicodeScalars{
+            
+            if alpha.contains(uni){
+                flag = false
+            }
+        }
+        
         for uni in word.unicodeScalars{
             
             if digit.contains(uni){

@@ -64,6 +64,7 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
   
     override func viewDidLoad() {
         
+        
         newData = data
     
         super.viewDidLoad()
