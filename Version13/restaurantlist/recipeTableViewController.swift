@@ -60,7 +60,7 @@ class recipeTableViewController: UITableViewController {
         let cell = recipeTable.dequeueReusableCell(withIdentifier: "recipe", for: indexPath) as! recipeTableViewCell
         
         cell.recipeName.text = data[indexPath.row].Name
-        var imageName = "image" + String(Int(data[indexPath.row].ID))
+        let imageName = "image" + String(Int(data[indexPath.row].ID))
         print(imageName)
         cell.recipeImage.image = UIImage(named: imageName)
         cell.accuracy.text = String(data[indexPath.row].accuracy) + "% MATCH"
