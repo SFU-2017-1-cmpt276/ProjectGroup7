@@ -1,21 +1,24 @@
-//
-//  ViewController.swift
-//  restaurantlist
-//
-//  Created by Grazietta Hof on 2017-03-03.
-//  Copyright © 2017 Grazietta Hof. All rights reserved.
-//
-//Programmers: Fran, Grazietta,Nicole, Jordan
-//coding standard:
-//The names of variables and items should be self-descriptive
-//if any changes are made to existing code in this file notify all programmers in the group chat
-//Xcode bracket convention should be followed
-//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
-//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+/*
 
-//File description:
-//This file is the viewController for the title page
+  ViewController.swift
+  restaurantlist
 
+  Created by Grazietta Hof on 2017-03-03.
+  Copyright © 2017 Grazietta Hof. All rights reserved.
+
+  PROGRAMMERS: Fran, Grazietta, Nicole, Jordan
+
+  CODING STANDARD:
+  * The names of variables and items should be self-descriptive
+  * If any changes are made to existing code in this file notify all programmers in the group chat
+  * Xcode bracket convention should be followed
+  * Only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+  * Notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+
+  FILE DESCRIPTION:
+  * This file is the viewController for the title page
+
+*/
 
 import UIKit
 import CoreLocation
@@ -68,7 +71,7 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        //*********Navigation Button************//
+        // Navigation Button
         self.navigationItem.rightBarButtonItem = allItems
         
         // Setup the Search Controller
@@ -82,14 +85,17 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         tableView.tableHeaderView = searchController.searchBar
         
         
-        //set up the GPS feature
+        // Set up the GPS feature
         locManager.delegate = self
         locManager.desiredAccuracy = kCLLocationAccuracyBest
         locManager.requestWhenInUseAuthorization()
         locManager.startMonitoringSignificantLocationChanges()
         locManager.startUpdatingLocation()
     
-        //***load the item objects into arrays***
+        /**************************************************************************************************/
+        //                              Load the item objects into arrays                                 //
+        /**************************************************************************************************/
+        
         let ArrayItems1 = parseCSV(name: "Starbucks")
         for object in ArrayItems1 {
             object.Restuarant = "Starbucks"
@@ -183,7 +189,10 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
             object.Restuarant = "TimHortons"
         }
         
-        //***load arrays of items into the Restaurant objects*******
+        /**************************************************************************************************/
+        //                      Load arrays of items into the Restaurant objects                          //
+        /**************************************************************************************************/
+        
         Restaurant1.Items = ArrayItems1
         Restaurant2.Items = ArrayItems2
         Restaurant3.Items = ArrayItems3
@@ -207,9 +216,10 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         Restaurant21.Items = ArrayItems21
         Restaurant22.Items = ArrayItems22
         
-        //All restaurants are put in an array
+        /**************************************************************************************************/
+        //                                   Insert items into an array                                   //
+        /**************************************************************************************************/
         
-        //*********************************************/
         RestaurantArray.insert(Restaurant1, at: 0)
         RestaurantArray.insert(Restaurant2, at: 1)
         RestaurantArray.insert(Restaurant3, at: 2)
@@ -232,11 +242,11 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         RestaurantArray.insert(Restaurant20, at:19)
         RestaurantArray.insert(Restaurant21, at:20)
         RestaurantArray.insert(Restaurant22, at:21)
-        /*********************************************/
         
-        //load items into an array
+        /**************************************************************************************************/
+        //                                      Load items into an array                                  //
+        /**************************************************************************************************/
         
-        /*********************************************/
         ArrayItems = ArrayItems1
         ArrayItems = ArrayItems2 + ArrayItems
         ArrayItems = ArrayItems3 + ArrayItems
@@ -259,7 +269,8 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         ArrayItems = ArrayItems20 + ArrayItems
         ArrayItems = ArrayItems21 + ArrayItems
         ArrayItems = ArrayItems22 + ArrayItems
-        /*********************************************/
+        
+        /**************************************************************************************************/
 
         
         //Apply distance function to each restaurant function in array to find the distance from user
@@ -269,9 +280,7 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         
         //sort the array by distance
         RestaurantArray =  RestaurantArray.sorted(by: {$0.distance < $1.distance})
-        
         self.table.reloadData()
-      
     }
     
     
@@ -280,8 +289,11 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
         // Dispose of any resources that can be recreated
     }
     
-    //****Distance Function****
-    //This function finds the user latitude and longitude and calculates the distance from the user and changes the restaurant objects' distance attributes accordingly
+    /**************************************************************************************************/
+    //                                      Distance Function                                         //
+    // This function finds the user latitude and longitude and calculates the distance from the user  //
+    //          and changes the restaurant objects' distance attributes accordingly                   //
+    /**************************************************************************************************/
     
     func calculate_distance(restaurant: RestaurantClass){
         
@@ -306,8 +318,14 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
             }
         }
     }
+    
+    
+    /**************************************************************************************************/
+    //                              FUNCTIONS NECESSARY FOR TABLEVIEW                                 //
+    /**************************************************************************************************/
+    
+    
     /***********************************************************************************************/
-    //                              Functions necessary for tableView                              //
     // This function returns the number of rows in the tableview. It also takes into account the   //
     //                                  activity of the search bar                                 //
     /***********************************************************************************************/
@@ -337,6 +355,7 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
             rest = RestaurantArray[indexPath.row]
         }
         
+        // Set images for each restaurant
         if rest.Name == "Pizza Hut"{
              cell.picture?.image = UIImage(named: "PizzaHut.jpg")
         }
@@ -557,29 +576,29 @@ class ViewController: UITableViewController,CLLocationManagerDelegate
     
 
 
-func filterContentForSearchText(_ searchText: String) {
-    filtered = RestaurantArray.filter({( restaurant : RestaurantClass) -> Bool in
-        return restaurant.Name.lowercased().contains(searchText.lowercased())
-    })
-    tableView.reloadData()
+    func filterContentForSearchText(_ searchText: String) {
+        filtered = RestaurantArray.filter({( restaurant : RestaurantClass) -> Bool in
+            return restaurant.Name.lowercased().contains(searchText.lowercased())
+        })
+        tableView.reloadData()
+        }
+
     }
 
-}
-
-extension ViewController: UISearchBarDelegate {
-    // MARK: - UISearchBar Delegate
-    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        filterContentForSearchText(searchBar.text!)
+    extension ViewController: UISearchBarDelegate {
+        // MARK: - UISearchBar Delegate
+        func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+            filterContentForSearchText(searchBar.text!)
+        }
     }
-}
 
-extension ViewController: UISearchResultsUpdating {
-    // MARK: - UISearchResultsUpdating Delegate
-    func updateSearchResults(for searchController: UISearchController) {
-        //let searchBar = searchController.searchBar
-        
-        filterContentForSearchText(searchController.searchBar.text!)
-    }
+    extension ViewController: UISearchResultsUpdating {
+        // MARK: - UISearchResultsUpdating Delegate
+        func updateSearchResults(for searchController: UISearchController) {
+            //let searchBar = searchController.searchBar
+
+            filterContentForSearchText(searchController.searchBar.text!)
+        }
 }
 
 
