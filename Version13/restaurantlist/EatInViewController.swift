@@ -1,18 +1,19 @@
-//
-//  ViewController.swift
-//  EatIn
-//
-//  Created by Nicole Thomas on 2017-03-11.
-//  Copyright © 2017 Nicole Thomas. All rights reserved.
-//
-//Programmers: Fran, Grazietta,Nicole, Jordan
-//coding standard:
-//The names of variables and items should be self-descriptive
-//if any changes are made to existing code in this file notify all programmers in the group chat
-//Xcode bracket convention should be followed
-//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
-//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+/*
+  ViewController.swift
+  EatIn
 
+  Created by Nicole Thomas on 2017-03-11.
+  Copyright © 2017 Nicole Thomas. All rights reserved.
+
+  PROGRAMMERS: Fran, Grazietta, Nicole, Jordan
+
+  CODING STANDARD:
+  * The names of variables and items should be self-descriptive
+  * If any changes are made to existing code in this file notify all programmers in the group chat
+  * Xcode bracket convention should be followed
+  * Only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+  * Notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+*/
 
 
 import UIKit
@@ -22,7 +23,7 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
     
     @IBOutlet weak var collectionView: UICollectionView! //create collectionview variable
     
-    let CellIdentifier = "cellId" //create identifiers for Header and input cells
+    let CellIdentifier = "cellId" //create identifiers for header and input cells
     let SectionHeaderIdentifier = "taskHeaderId"
     
     var ingredients : [String] = [] //initiate array for ingredients
@@ -58,8 +59,15 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         
     }
     
-    //This function checks to see if the user input ingredients matches any recipe ingredients and returns the recipe ID, if non of the inputs match the the first recipe is returned
-    //The strings still need to be divided into words so that if the user inputs cheddar for instance and the recipe states: "cheddar cheese", its still a match
+    /**************************************************************************************************/
+    //  This function:                                                                                //
+    //  * checks to see if the user input ingredients matches any recipe ingredients and              //
+    //    returns the recipe ID                                                                       //
+    //  * If none of the inputs match the the first recipe is returned                                //
+    //  * The strings still need to be divided into words so that if the user inputs cheddar for        //
+    //    instance and the recipe states: "cheddar cheese", its still a match                  //
+    /**************************************************************************************************/
+    
     func search_for_ingredient() -> [recipe]{
         recipes = []
         for object in searchArray{
@@ -104,7 +112,9 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         
     }
     
-    //this function loads the ingredients and returns an array of ingredient objects
+    /**************************************************************************************************/
+    //        This function loads the ingredients and returns an array of ingredient objects          //
+    /**************************************************************************************************/
     
     func parseCSVIngredients(name: String) -> Array<ingredient> {
         let path = Bundle.main.path(forResource: name, ofType: "csv")
@@ -133,7 +143,10 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         return ret
     }
     
-    //This function loads recipes from a csv into an array of recipe objects
+    /**************************************************************************************************/
+    //             This function loads recipes from a csv into an array of recipe objects             //
+    /**************************************************************************************************/
+    
     func parseCSVRecipes(name: String) -> Array<recipe> {
         let path = Bundle.main.path(forResource: name, ofType: "csv")
         var ret: [recipe] = []
@@ -187,13 +200,19 @@ class EatInViewController: UIViewController, UICollectionViewDelegateFlowLayout,
         return CGSize(width: view.frame.width, height: 80)
     }
     
-    //create function to remove ingredient at selected row
+    /**************************************************************************************************/
+    //                      This function removes ingredient at selected row                          //
+    /**************************************************************************************************/
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         ingredients.remove(at: indexPath.row)
         collectionView.reloadData() //reload data to remove ingredient from array
     }
     
-    //function to check if ingredient already present in the ingredients array
+    /**************************************************************************************************/
+    //           This function checks if ingredient already present in the ingredients array          //
+    /**************************************************************************************************/
+    
     func ingredientCheck(ingredientName : String) -> Bool{
         var flag = false
         var i = 0
@@ -249,6 +268,7 @@ class Header : BaseCell {
         field.translatesAutoresizingMaskIntoConstraints = false
         return field
     }()
+    
     //create button to add ingredient to array
     let addIngredient : UIButton = {
         let button = UIButton(type: .system)
@@ -270,7 +290,10 @@ class Header : BaseCell {
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": addIngredient]))
     }
     
-    //function for determining word is correctly spelt
+    /**************************************************************************************************/
+    //                      This function determines if a word is correctly spelt                     //
+    /**************************************************************************************************/
+    
     func isReal(word: String) -> Bool {
         let checker = UITextChecker()
         let range = NSRange(location: 0, length: word.utf16.count)
@@ -279,8 +302,10 @@ class Header : BaseCell {
         return misspelledRange.location == NSNotFound
     }
     
-    //function to determine if user input contains digits
-    //function to determine if user input contains digits
+    /**************************************************************************************************/
+    //                     This function determines if user input contains digits                     //
+    /**************************************************************************************************/
+
     func isalpha(word: String) -> Bool {
         let digit = CharacterSet.decimalDigits
         let alpha = CharacterSet.alphanumerics
@@ -301,9 +326,13 @@ class Header : BaseCell {
         return flag
     }
     
+    /**************************************************************************************************/
+    //   This function adds ingredient to an array if the string meets the following requirements:    //
+    //       * less than 15 letters                                                                   //
+    //       * correctly spelt                                                                        //      
+    //       * does not contain digits                                                                //
+    /**************************************************************************************************/
     
-    //function to add ingredient to array if string meets requirements for being less than 15 letters, correctly spelt
-    //and not containing any digits
     func Ingredient(sender: Any?) {
         
         // if the ingredient contains >15 letters create pop-up alert to alert user the max letters is 15 for ingredient
@@ -314,21 +343,23 @@ class Header : BaseCell {
                 parentViewController?.present(alertController, animated: true, completion: nil)
                 
             }
-                //create pop-up if ingredient already in ingredients array
+            
+            //create pop-up if ingredient already in ingredients array
             else if viewController.ingredientCheck(ingredientName: IngredientField.text!){
                 let alertController = UIAlertController(title: "Error", message: "Please insert an ingredient not already on the list", preferredStyle: UIAlertControllerStyle.alert)
                 alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
                 parentViewController?.present(alertController, animated: true, completion: nil)
                 
             }
-                //add ingredient to array if correctly spelt and doesnt contain a digit
+            
+            //add ingredient to array if correctly spelt and doesnt contain a digit
             else if isReal(word: IngredientField.text!) && !isalpha(word: IngredientField.text!) {
                 viewController.addToList(ingredientName: IngredientField.text!)
                 IngredientField.backgroundColor = UIColor.white
                 IngredientField.text = ""
             }
                 
-                //change textfield to red if user input is incorrectly spelt or contains a digit
+             //change textfield to red if user input is incorrectly spelt or contains a digit
             else {
                 IngredientField.backgroundColor = UIColor.red
             }
