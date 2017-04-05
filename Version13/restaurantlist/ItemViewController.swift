@@ -1,22 +1,20 @@
-//
-//  ItemViewController.swift
-//  restaurantlist
-//
-//  Created by Grazietta Hof on 2017-03-04.
-//  Copyright © 2017 Grazietta Hof. All rights reserved.
-//
-//Programmers: Fran, Grazietta,Nicole, Jordan
-//coding standard:
-//The names of variables and items should be self-descriptive
-//if any changes are made to existing code in this file notify all programmers in the group chat
-//Xcode bracket convention should be followed
-//only when the updates you have made are compiling, may this projected be submitted to the master branch on github
-//notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
+/*
+  ItemViewController.swift
+  restaurantList
 
+  Created by Grazietta Hof on 2017-03-04.
+  Copyright © 2017 Grazietta Hof. All rights reserved.
 
+  PROGRAMMERS: Fran, Grazietta, Nicole, Jordan
 
+  CODING STANDARD:
+  * The names of variables and items should be self-descriptive
+  * If any changes are made to existing code in this file notify all programmers in the group chat
+  * Xcode bracket convention should be followed
+  * Only when the updates you have made are compiling, may this projected be submitted to the master branch on github
+  * Notify all programmers of any existing bugs in the compiling version of the project submitted on the github master branch
 
-
+*/
 
 import UIKit
 
@@ -93,8 +91,10 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         super.viewDidAppear(animated)
     }
     
-    
-    //This function is responsible for filtering the data loaded into the tableView. It filters the data, and reloads the tableView after
+    /**************************************************************************************************/
+    //      This function is responsible for filtering the data loaded into the tableView.            //
+    //                   It filters the data, and reloads the tableView after                         //
+    /**************************************************************************************************/
     
     func didTap(_ checkBox: BEMCheckBox) {
         
@@ -644,8 +644,10 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         super.didReceiveMemoryWarning()
     }
 
-    
-    //this function returns the number of rows to be loaded into the tableview
+    /**************************************************************************************************/
+    //          This function returns the number of rows to be loaded into the tableview              //
+    /**************************************************************************************************/
+  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if flagTotal == 1{
             return newData.count
@@ -654,8 +656,12 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         return data.count
     }
     
-    //This function loads the data into the cells. If the flagTotal is set to 1, then at least one of the checkMarks are selected and a different array is used
-    //It returns the cell
+    /**************************************************************************************************/
+    //                        This function loads the data into the cells                             //
+    //  * If the flagTotal is set to 1, then at least one of the checkMarks are selected and          //
+    //  * a different array is used                                                                   //
+    //  * Return the cell                                                                             //
+    /**************************************************************************************************/
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -676,7 +682,10 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         return cell2
     }
     
-    //This function is responsible for the item detail pop up when the user selects an item
+    /**************************************************************************************************/
+    //    This function is responsible for the item detail pop up when the user selects an item       //
+    /**************************************************************************************************/
+  
     func showAlertForRow(_ row: Int) {
         
         print(data[row].Restuarant)
@@ -746,8 +755,10 @@ class ItemViewController: UIViewController, UIPickerViewDelegate,UITableViewData
         }
     }
     
-    
-    //****PickerView functions
+    /**************************************************************************************************/
+    //                                      PickerView functions                                      //
+    /**************************************************************************************************/
+  
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
